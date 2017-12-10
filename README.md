@@ -1,6 +1,17 @@
 # yetibot.github.io
 Yet another static site build with [perun.io](https://perun.io).
 
+## Prerequisites
+
+-  Install [[https://github.com/boot-clj/boot][boot]]
+
+## Usage
+
+Run =boot dev=.
+
+This will start a web server on port 3000, watch the directory and
+rebuild the target on changes.
+
 ## Content License
 
 Except as otherwise noted, the content of this [site](http://github.github.io)
