@@ -10,7 +10,7 @@
     [:nav {:role "navigation"}
      [:ul.list.pl0.ma0
       (nav-item "/guides/" "Guides")
-      (nav-item "https://yetibot.slack.com" "Slack")
+      (nav-item "http://slack.yetibot.com" "Slack")
       (nav-item "https://github.com/yetibot" "GitHub")]]))
 
 (defn icon [id]
