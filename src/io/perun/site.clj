@@ -96,7 +96,7 @@
         [:p.mv3 slogan]]
        (nav)]
       [:div.f7.pr6.pt4
-       (perun-logo 300)]]
+        [:img {:src "images/yetibot_logo.svg" :width 150 :height 150} ] ]]
 
      [:div.mw8.center.ph3
       (feature {:icon-id :puzzle-10
@@ -144,7 +144,7 @@
 (defn with-top-nav [& contents]
   (base
    [:div.mw7.center.lh-copy.relative
-    [:div.absolute.right-0 {:style "top:-130px"} (perun-logo 300)]
+    [:div.absolute.right-0 {:style "top:-130px"} ]
     [:div.relative
      {:style "z-index: 1"}
      [:div.ph3.pt4
