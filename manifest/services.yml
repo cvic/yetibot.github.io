@@ -1,0 +1,88 @@
+development:
+  name: Software Development
+  description: >-
+    We love technology & and we surely love to code. Whether you need
+    a custom solution for your business or you need someone to code
+    your idea, which most definitely will become the next Twitter or
+    Facebook, drop us a line or use the chat on this site to get in
+    contact. We're looking forward to hearing from you.
+
+consulting:
+  name: Consulting
+  description: >-
+    Our team covers a broad palette of technologies as well as whole
+    technology stacks and brings plenty of years of experience to the
+    table. We offer onsite technology consulting. Whether you are
+    about to start a green field project or try to bring change to an
+    existing software solution, we can help you to move forward and
+    meet your goals.
+
+training:
+  name: Training
+  description: >-
+    We not only love code, we also love to teach coding: "Code
+    excellent and talk about it." You want your team hit the ground
+    running with a new technology? Training is the way to go. We offer
+    single- and multi-day training courses for a couple of
+    technologies that will boost the productivity of your team. Let us
+    know about your ideas and together we will figure something out
+    that meet you needs.
+
+opensource-integration:
+  name: Open Source Integration
+  description: >-
+    As an open source integrator we offer cost effective solutions
+    built on top of the most proven open source technologies. Open
+    Source is a treasure trove of well established solutions that can
+    help you digitize and transform your business. Having not only
+    released and contributed to a lot of open source projects, but
+    also having studied open source scientifically we understand what
+    makes open source tick and how to make it work for you.
+
+coaching:
+  name: Coaching
+  description: >-
+    Don't make the same mistakes we did! Take the shortcut, by letting
+    us help you avoid the same traps. We've plenty of experience in
+    software development and we like to share it. It's not only
+    knowing your way around technology. It's also about how you think
+    about it and how you do it. Whether as an individual or a small
+    team coaching is probably the most effective way to acquire new
+    skills and to learn and adopt a mindset that helps building better
+    software.
+
+# Problems - Shared Code ownership, Distributing
+# Responsibilities. Techniques - Code Reviews, Pair Programming,
+# Rubber Ducking. Through penty years iof experience we developed
+# our own most efficient way, meet the - Guided Review.
+
+workshops:
+  name: Workshops
+  description: >-
+    Building a successful company is hard. Really hard. At 200ok, we
+    have launched multiple incubators and spinned-off companies, so we
+    have a little experience in how to optimize your chances of
+    success. For that we have created multiple workshops:
+    <strong>Traction</strong>: A startup guide to getting customers.
+    <strong>Bullseye</strong>: The Bullseye framework is designed to
+    be a straightforward way to direct your traction focus and
+    maximize your results. <strong>Lean Startup</strong>: Be more
+    innovative. Stop wasting people's time. Be more successful.
+
+hosting:
+  name: Hosting & Maintenance
+  description: >-
+    We support our clients and products in all areas of Unix/Linux
+    infrastructure. 200ok works with true DevOps in mind where our
+    developers are not just developers, but have a strong
+    background in different flavors of Unix and Linux. All our
+    applications are deployed through automated configuration
+    management, many run within containers, all have automated
+    monitoring and exception notification and either run in Swiss data
+    centers on private networks or on any cloud service provider.
+
+    We also offer to support and maintain the applications that we
+    build at various levels to meet the clients' demands - from
+    regular security updates to adding new functionality. In
+    cooperation with our partners we are able to provide 24/7 on-call
+    service.

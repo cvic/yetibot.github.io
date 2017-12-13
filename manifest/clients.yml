@@ -1,0 +1,57 @@
+sva:
+  name: SVA Zürich
+  position: 10
+  logo: logo_sva_zuerich.svg
+  url: https://www.svazurich.ch
+
+zhaw:
+  name: ZHAW Zurich University of Applied Sciences
+  position: 20
+  logo: zhaw_soe.jpg
+  url: https://www.zhaw.ch/en/engineering/
+
+wilmaa:
+  name: Wilmaa
+  position: 40
+  logo: wilmaa_logo.png
+  url: https://wilmaa.com
+
+nzz:
+  name: NZZ
+  position: 30
+  logo: nzz_logo.png
+  url: https://nzz.ch
+
+kunstmuseumbasel:
+  name: Kunstmuseum Basel
+  position: 50
+  logo: logo_kumu_basel_rot.gif
+  url: https://kunstmuseumbasel.ch/
+  projects:
+    - kunstmuseum-chat
+
+livingdocs:
+  name: Livingdocs
+  position: 70
+  logo: livingdocs_logo.png
+  url: https://livingdocs.io/
+
+voicerepublic:
+  name: Voice Republic Media AG
+  position: 60
+  logo: vr.svg
+  url: https://voicerepublic.com
+
+sourcepole:
+  name: Sourcepole AG
+  position: 80
+  logo: sourcepole.png
+  url: https://sourcepole.ch
+
+bos-schweiz:
+  name: BOS Schweiz
+  position: 90
+  logo: bos-schweiz.jpg
+  url: http://www.bos-schweiz.ch
+  projects:
+    - webhooks

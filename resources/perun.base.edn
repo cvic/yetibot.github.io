@@ -1,0 +1,7 @@
+;; global meta data
+
+{:base-url "http://yetibot.github.io/"
+ :site-title "Yetibot - IRC and Slack chatops magic"
+ :description "Awesome stuff"
+ :subdescription "based in beautiful US of A and the Internetz"
+ :author "Vic"}

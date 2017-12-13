@@ -1,0 +1,12 @@
+cloud:
+  name: Cloud Infrastructure
+  technologies:
+    - aws
+    - terraform
+    - ansible
+
+audio:
+  name: Audio Live Streaming and Processing
+
+data:
+  name: Data Science & Visualization

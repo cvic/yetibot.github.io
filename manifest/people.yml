@@ -1,0 +1,57 @@
+alain:
+  position: 1
+  name: Alain M. Lafon
+  title: Founder & CEO
+  programming_since: 1999
+  description: >-
+    Alain has been programming for the web since 2004. He is an avid
+    follower of Web Standards and constantly improving his own
+    productivity as well as the productivity of the team he is working
+    with by his profound knowledge about agile methodologies as well as
+    tooling to facilitate a smooth software development process.
+    He is also a lecturer at [ZHAW](http://zhaw.ch) and an ordained monk
+    tending to a [Zen Temple](http://zen-temple.net/zen-temples/lambda-zen-temple/introduction/)
+    in Glarus, Switzerland.
+phil:
+  position: 2
+  name: Phil Hofmann
+  title: Founder
+  description: Phil has been programming for the web since 1999. He is an experienced Software Engineer.
+  programming_since: 1997
+  technologies:
+    ruby-on-rails: 2006
+    clojure: 2010
+dibran:
+  position: 3
+  name: Dibran Isufi
+  title: Code Gluer
+  programming_since: 2013
+  incubator_almuni: 2016
+ursula:
+  position: 4
+  name: Ursula Ledergerber
+  title: Head of Communications
+nick:
+  position: 5
+  name: Nick Niles
+  title: Product Designer
+  description: >-
+    A former rock musician and long-distance runner from Northern California, Nick has been designing and building web sites since 1997. With a background in design & technology, and an MFA in Film Directing from Columbia University, he enjoy telling stories through motion graphics, animations, and rich digital experiences.
+pascal:
+  name: Pascal Huber
+  incubator_almuni: 2017
+micha:
+  name: Micha Steiner
+  incubator_almuni: 2017
+max:
+  name: Max Schrimpf
+  incubator_alumni: 2015
+raffael:
+  name: Raffael Santschi
+  incubator_alumni: 2015
+daniel:
+  name: Daniel Einars
+savino:
+  name: Savino Jossi
+anna:
+  name: Anna Kälin

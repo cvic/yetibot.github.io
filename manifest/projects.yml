@@ -1,0 +1,448 @@
+pseudocult:
+  name: Pseudocult
+  url: https://gitlab.com/200ok/pseudocult
+  category: Cloud Configuration
+  opensourced: 2017
+  priority: 100
+  technologies:
+    - clojure
+    - aws
+    - amazonica
+  people:
+    - phil
+  description: >-
+    Pseudocult (which is an anagram to "cloud setup") enables you to
+    set up your cloud (AWS) declarativly and consistently.
+
+    It is mainly a clojure program that you run providing one or more
+    config files, which describe your cloud setup. Pseudocult will
+    detect discrepancies between the current state of the cloud and
+    the description obtained from the config files as well as take
+    action to overcome the discrepencies.
+
+webhooks:
+  name: Webhooks
+  url: https://gitlab.com/200ok/webhooks
+  opensourced: 2017
+  priority: 90
+  technologies:
+    - clojure
+  people:
+    - phil
+  description: >-
+    Webhooks is a lightweight webhooks server written in Clojure. It
+    allows to set up webhook endpoints and corresponding shell
+    commands, which will be executed when the endpoint is
+    requested. The config file is written in EDN (the preferred
+    clojure data format). The config file will be read per request, so
+    there is no restart required after updating the config file.
+
+200ok-site:
+  name: 200ok Website
+  url: https://gitlab.com/200ok/200ok.gitlab.io
+  image: "/img/products/200ok.ch.png"
+  opensourced: 2016
+  priority: 60
+  technologies:
+    - clojure
+    - boot
+    - perun
+    - hiccup
+    - fsdb
+  people:
+    - phil
+    - alain
+  description: >-
+    "You're lookin' at it, baby! The setup behind this website is
+    cooler than you might think. Because it's totally data-driven.
+    That's right. Robots 'n stuff."
+
+fsdb:
+  name: fsdb
+  url: https://gitlab.com/200ok/fsdb
+  opensourced: 2017
+  priority: 70
+  technologies:
+    - clojure
+  people:
+    - phil
+  description: >-
+    A Clojure library that provides a reasonably convenient database
+    on top of the file system.
+
+swiss-crowdfunder:
+  name: Swiss Crowdfunder
+  url: https://swiss-crowdfunder.com
+  image: "/img/products/swiss-crowdfunder.png"
+  opensourced: 2017
+  priority: 10
+  technologies:
+    - ruby-on-rails
+    - saas
+    - javascript
+    - ruby
+    - nginx
+    - postgresql
+    - debian
+  people:
+    - alain
+    - nico
+    - sanghee
+  description: >-
+    Swiss Crowdfunder is a crowd funding and equity funding platform.
+    It is a joint product with [ungleich glarus ag](https://ungleich.ch/).
+
+    ## Why did we do it?
+
+    Crowdfunding using established platforms can be very expensive.
+    Usually, there is a fee of 12-20% that has to be paid. **Swiss
+    Crowdfunder** is fully open source - therefore it can be used by anyone to
+    start their own crowdfunding platform or campaign.
+
+    ## Open source
+
+    **Swiss Crowdfunder** is released under the popular
+    [AGPL license](https://github.com/200ok-ungleich/swiss-crowdfunder/blob/master/LICENSE),
+    has a
+    [contribution guide](https://github.com/200ok-ungleich/swiss-crowdfunder/blob/master/CONTRIBUTING.md)
+    as well as a
+    [code of conduct](https://github.com/200ok-ungleich/swiss-crowdfunder/blob/master/CODE_OF_CONDUCT.md),
+    is
+    [fully configurable](https://github.com/200ok-ungleich/swiss-crowdfunder#configuration)
+    and has a community
+    [Mattermost chatroom](https://github.com/200ok-ungleich/swiss-crowdfunder#configuration).
+
+    For more information, visit
+    [https://github.com/200ok-ungleich/swiss-crowdfunder](https://github.com/200ok-ungleich/swiss-crowdfunder), star the project and become part of it!
+
+    ## Hosted SaaS
+
+    Next to the OSS version, we run and support our hosted SaaS
+    version at
+    [https://swiss-crowdfunder.com/](https://swiss-crowdfunder.com/).
+    If you don't want to get too technical, get in touch with us at
+    info@200ok.ch and we will host your campaign for an 8% fee.
+
+    We also offer coaching and support in how to set up a proper
+    crowdfunding campaign and optimize your marketing efforts. Call or
+    write us anytime!
+
+
+wilmaaepg:
+  people:
+    - phil
+  technologies:
+    - ruby-on-rails
+    - google-protocol-buffers
+
+wilmalivestats:
+  people:
+    - phil
+  technologies:
+    - ruby-on-rails
+    - aws
+    - faye
+
+wilmaaautoscaling:
+  technologies:
+    - aws
+
+voicerepublic-mobile:
+  people:
+    - dibran
+  technologies:
+    - angular
+    - ionic
+
+voicerepublic-backoffice:
+  people:
+    - phil
+    - alain
+    - nick
+  technologies:
+    - ruby-on-rails
+    - cljs
+    - faye
+    - rabbitmq
+    - ruby
+    - nginx
+    - aws
+    - d3
+    - reagent
+    - react
+    - postgresql
+    - javascript
+    - debian
+
+voicerepublic-site:
+  name: Voice Republic
+  image: "/img/products/voicerepublic.png"
+  priority: 30
+  incubated: 2014
+  incubator-status: >-
+    Full product developed, 7-digits capital raised.
+  people:
+    - phil
+    - alain
+    - nick
+    - josef
+  technologies:
+    - ruby-on-rails
+    - cljs
+    - clojure
+    - faye
+    - rabbitmq
+    - icecast
+    - liquidsoap
+    - ruby
+    - nginx
+    - aws
+    - elk
+    - d3
+    - reagent
+    - react
+    - postgresql
+    - duct
+    - javascript
+    - coffeescript
+    - debian
+  description: >-
+    Professional live audio streaming and archiving of events.
+    Whether you want to stream your event live or record it and upload
+    the files - with Voice Republic you’ll easily create your own
+    audio channel.
+
+    PROFESSIONAL STREAMING SOLUTION The StreamBoxx is developed to
+    stream and archive events. All live streams can be controlled via
+    your web browser from anywhere you like.
+
+collecture-mobile:
+  name: Collecture Mobile Apps
+  priority: 20
+  image: "/img/products/collecture-mobile.png"
+  category: Education
+  people:
+    - dibran
+    - phil
+    - alain
+  technologies:
+    - reagent
+    - re-frame
+    - react-native
+    - re-natal
+    - cljs
+    - aws
+  description: >-
+    iOS and Android mobile apps to record, organize and share lectures
+    and meetings on collecture.io.
+
+collecture-web:
+  name: Collecture
+  url: https://collecture.io
+  category: Education
+  priority: 10
+  image: "/img/products/collecture.png"
+  incubated: 2016
+  incubator-status: >-
+    Full product developed and used daily by lecturers and students
+    alike.
+  people:
+    - dibran
+    - phil
+    - alain
+    - ursula
+    - nick
+  technologies:
+    - ansible
+    - clojure
+    - cljs
+    - ring
+    - re-frame
+    - rabbitmq
+    - nginx
+    - aws
+    - reagent
+    - react
+    - postgresql
+    - javascript
+    - debian
+  description: >-
+    Collecture records your lectures and syncs them with its
+    cloud-based app.
+
+quickshift-java:
+  people:
+    - pascal
+    - mischa
+  technologies:
+    - java
+    - optaplanner
+    - drools
+
+quickshift-rails:
+  name: QuickShift
+  url: https://quickshift.ch
+  image: "/img/products/quickshift.png"
+  priority: 30
+  incubated: 2017
+  incubator-status: MVP online and under further development.
+  people:
+    - phil
+    - alain
+    - pascal
+    - micha
+  technologies:
+    - ruby
+    - ruby-on-rails
+    - riot
+    - nginx
+    - postgresql
+    - debian
+    - javascript
+    - ansible
+  description: >-
+    Genug vom ewigen Grübeln über Einsatzpläne? Wir auch!
+    Deswegen bieten wir den vollautomatischen Einsatzplaner: QuickShift.
+
+simplatyser:
+  name: Simplatyser
+  url: https://simplatyser.ch/
+  priority: 45
+  image: "/img/products/simplatyser.png"
+  incubated: 2015
+  incubator-status: MVP online and usable, but currently on hold.
+  technologies:
+    - java
+    - jhipster
+    - postgresql
+    - angular
+    - debian
+    - docker
+    - clojure
+  people:
+    - max
+    - raphael
+    - alain
+    - phil
+  description: >-
+    Simplatyser automates manual tasks for you with the power of the
+    cloud.
+
+zen-temple:
+  name: Insopor Zen Academy
+  url: http://zen-temple.net
+  image: "/img/products/zen-temple.png"
+  priority: 47
+  people:
+    - alain
+  technologies:
+    - wordpress
+    - javascript
+    - clojure
+    - heroku
+    - ruby
+    - sinatra
+    - adwords
+  description: >-
+    zen-temple.net is a multilingual, SEO optimized website with over
+    500 landing pages, each with automated integrations into 8 social
+    media networks. It feeds data from specialized microservices and
+    has automated integration into Google Adwords.
+
+meetup-calendar:
+  name: Meetup Calendar Microservice
+  opensourced: 2015
+  priority: 110
+  url: https://github.com/munen/meetup-calendar
+  technologies:
+    - ruby
+    - sinatra
+    - heroku
+    - haml
+    - css
+  people:
+    - alain
+  description: >-
+    A microservice accessing the Meetup API and rendering a HTML table
+    for any given meetup. We are also making a free hosted SaaS
+    version available.
+
+wittbib:
+  name: Wittbib Library Management
+  opensourced: 2012
+  priority: 120
+  technologies:
+    - ruby-on-rails
+    - saas
+    - coffeescript
+    - jquery
+    - ruby
+    - postgresql
+  people:
+    - phil
+    - alain
+  description: >-
+    A library management application that we developed as a
+    contribution to library organised by volunteers. Wittbib has the
+    ability to scan ISBN numbers from a book using a hand scanner to
+    look up book meta data in different databases. The books of the
+    library can then be searched and lent to visitors. There is also a
+    public searching interface as well as various export formats for
+    the library.
+
+kunstmuseum-chat:
+  name: Kunstmuseum Basel Chat
+  image: "/img/products/kunstmuseum-chat.png"
+  priority: 44
+  technologies:
+    - node
+    - javascript
+    - faye
+    - riot
+  people:
+    - alain
+    - anna
+  description: >-
+    A mobile-first chat application with an admin back-end. Visitors
+    of Kunstmuseum Basel exhibitions can ask questions on iPads which
+    are deployed throughout the museum and get instant feeback from
+    curators, restaurators and art brokers.
+
+codegraph:
+  name: Codegraph
+  url: https://gitlab.com/200ok/codegraph
+  image: "/img/products/codegraph.png"
+  opensourced: 2016
+  priority: 80
+  technologies:
+    - clojure
+    - graphviz
+  people:
+    - phil
+  description: >-
+    Codegraph is a command utility written in about 50 lines of
+    Clojure. It reads Clojure code with Clojure's builtin function
+    `read-string`, analyzes the code and generates a dot file, which
+    can be fed into Graphviz to generate a dependency graph of the
+    given code. It works nicely with ClojureScript. And it's a
+    beautiful demonstration of Clojure's homoiconicity (which is a
+    fancy technical term for "code is data").
+
+p-slides:
+  name: p_slides
+  url: https://github.com/munen/p_slides
+  image: "/img/products/p_slides.png"
+  category: Education
+  opensourced: 2012
+  priority: 50
+  technologies:
+    - html
+    - markdown
+    - javascript
+  people:
+    - alain
+  description: >-
+    p_slides is a "static files only", dead simple way to create
+    semantic slides. It neither needs a server, installed software,
+    pre-compilation nor a special editor. Neither editing nor
+    presenting has any external dependencies - it's just a html file.

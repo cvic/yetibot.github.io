@@ -1,0 +1,450 @@
+livingdocs:
+  name: Livingdocs
+  priority: 52
+  category: CMS
+  logo: livingdocs.png
+  url: https://www.livingdocs.io/
+  description: >-
+    Livingdocs is not only a CMS but a component-based solution to
+    publish across many devices and products.
+
+ruby:
+  name: Ruby
+  priority: 30
+  logo: ruby.png
+  category: Programming Language
+  url: https://www.ruby-lang.org/
+  description: >-
+    Ruby is a dynamic, open source programming language with a focus
+    on simplicity and productivity. It has an elegant syntax that is
+    natural to read and easy to write.
+
+clojure:
+  name: Clojure
+  priority: 10
+  logo: clojure.png
+  category: Programming Language
+  url: https://clojure.org/
+  description: >-
+    Clojure is a dynamic, general-purpose programming language,
+    combining the approachability and interactive development of a
+    scripting language with an efficient and robust infrastructure for
+    multithreaded programming. Clojure is a compiled language, yet
+    remains completely dynamic – every feature supported by Clojure is
+    supported at runtime. Clojure provides easy access to the Java
+    frameworks, with optional type hints and type inference, to ensure
+    that calls to Java can avoid reflection.
+
+    Clojure is a dialect of Lisp, and shares with Lisp the
+    code-as-data philosophy and a powerful macro system. Clojure is
+    predominantly a functional programming language, and features a
+    rich set of immutable, persistent data structures. When mutable
+    state is needed, Clojure offers a software transactional memory
+    system and reactive Agent system that ensure clean, correct,
+    multithreaded designs.
+
+cljs:
+  name: ClojureScript
+  priority: 20
+  logo: cljs.svg
+  category: Programming Language
+  url: https://clojurescript.org/
+  description: >-
+    ClojureScript is a compiler for Clojure that targets
+    JavaScript. It emits JavaScript code which is compatible with the
+    advanced compilation mode of the Google Closure optimizing
+    compiler.
+
+r:
+  name: R
+  priority: 80
+  logo: r.svg
+  category: Programming Language
+  url: https://www.r-project.org/
+  description: >-
+    R is an open source programming language and software environment
+    for statistical computing and graphics that is supported by the R
+    Foundation for Statistical Computing. The R language is widely
+    used among statisticians and data miners for developing
+    statistical software and data analysis.
+
+rabbitmq:
+  name: RabbitMQ
+  logo: rabbitmq.png
+  category: Message Broker
+  url: https://www.rabbitmq.com/
+  description: >-
+    With more than 35,000 production deployments of RabbitMQ
+    world-wide at small startups and large enterprises, RabbitMQ is
+    the most popular open source message broker.
+
+    RabbitMQ is lightweight and easy to deploy on premises and in the
+    cloud. It supports multiple messaging protocols. RabbitMQ can be
+    deployed in distributed and federated configurations to meet
+    high-scale, high-availability requirements.
+
+ansible:
+  name: Ansible
+  logo: ansible.png
+  category: System Configuration Management
+  url: https://www.ansible.com/
+  description: >-
+    Ansible is an open-source automation engine that automates
+    software provisioning, configuration management, and application
+    deployment.
+
+liquidsoap:
+  name: Liquidsoap
+  logo: liquidsoap.png
+  category: Programming Language
+  url: http://liquidsoap.fm/
+  description: >-
+    Liquidsoap is the swiss-army knife for multimedia streaming,
+    notably used for netradios and webtvs. It has tons of features,
+    it's free and it's open-source!
+
+nginx:
+  name: Nginx
+  logo: nginx.png
+  category: Web Server
+  url: https://nginx.org/
+  description: >-
+    Nginx is a web server which can also be used as a reverse proxy,
+    load balancer and HTTP cache.
+
+    Nginx is free and open source software, released under the terms
+    of a BSD-like license. A large fraction of web servers use NGINX,
+    often as a load balancer.
+
+latex:
+  name: LaTex
+  logo: latex.png
+  category: Document Preparation System
+  url: https://www.latex-project.org/
+  description: >-
+    LaTeX is a high-quality typesetting system; it includes features
+    designed for the production of technical and scientific
+    documentation. LaTeX is the de facto standard for the
+    communication and publication of scientific documents. LaTeX is
+    available as free software.
+
+# this should probably have multiple entries s3, ec2, sns, route53, ...
+aws:
+  name: Amazon Web Services
+  priority: 90
+  logo: aws.svg
+  category: Cloud Computing Platform
+  url: https://aws.amazon.com/
+
+heroku:
+  name: Heroku
+  logo: heroku.jpg
+  category: Cloud Computing Platform
+  description: >-
+    Heroku is a cloud platform as a service (PaaS) supporting several
+    programming languages that is used as a web application deployment
+    model. Heroku, one of the first cloud platforms, has been in
+    development since June 2007, when it supported only the Ruby
+    programming language, but now supports Java, Node.js, Scala,
+    Clojure, Python, PHP, and Go.
+
+icecast:
+  name: Icecast
+  logo: icecast.png
+  category: Media Streaming Server
+  url: http://icecast.org/
+  description: >-
+    Icecast is a streaming media (audio/video) server which currently
+    supports Ogg (Vorbis and Theora), Opus, WebM and MP3 streams. It
+    can be used to create an Internet radio station or a privately
+    running jukebox and many things in between. It is very versatile
+    in that new formats can be added relatively easily and supports
+    open standards for communication and interaction.
+
+drools:
+  name: Drools
+  logo: drools.png
+  category: Rule Engine
+  url: https://www.drools.org/
+  description: >-
+    Drools is a Business Rules Management System (BRMS) solution. It
+    provides a core Business Rules Engine (BRE), a web authoring and
+    rules management application (Drools Workbench) and an Eclipse IDE
+    plugin for core development.
+
+elk:
+  name: Elk
+  logo: elk.png
+  category: Analytics Solution
+  url: https://www.elastic.co/products
+
+d3:
+  name: D3
+  priority: 55
+  logo: d3.png
+  category: Visualization
+  url: https://d3js.org/
+  description: >-
+    D3.js is a JavaScript library for manipulating documents based on
+    data. D3 helps you bring data to life using HTML, SVG, and
+    CSS. D3’s emphasis on web standards gives you the full
+    capabilities of modern browsers without tying yourself to a
+    proprietary framework, combining powerful visualization components
+    and a data-driven approach to DOM manipulation.
+
+faye:
+  name: Faye
+  logo: faye.gif
+  category: Message Broker
+  url: https://faye.jcoglan.com/
+  description: >-
+    Faye is a publish-subscribe messaging system based on the Bayeux
+    protocol. It provides message servers for Node.js and Ruby, and
+    clients for use on the server and in all major web browsers.
+
+postgresql:
+  name: PostgreSQL
+  logo: postgresql.png
+  category: Database
+  url: https://www.postgresql.org/
+  description: >-
+    PostgreSQL is an object-relational database management system
+    (ORDBMS) with an emphasis on extensibility and standards
+    compliance. As a database server, its primary functions are to
+    store data securely and return that data in response to requests
+    from other software applications. It can handle workloads ranging
+    from small single-machine applications to large Internet-facing
+    applications (or for data warehousing) with many concurrent users.
+
+duct:
+  name: Duct
+  logo: duct.svg
+  category: Web Application Framework
+  url: https://github.com/duct-framework/duct
+  description: >-
+    Duct is a highly modular framework for building server-side
+    applications in Clojure using data-driven architecture.
+
+    It is similar in scope to Arachne, and is based on Integrant. Duct
+    builds applications around an immutable configuration that acts as
+    a structural blueprint. The configuration can be manipulated and
+    queried to produce sophisticated behavior.
+
+terraform:
+  name: Terraform
+  logo: terraform.svg
+  category: Cloud Configuration
+  url: https://www.terraform.io/
+  description: >-
+    Terraform is an infrastructure as code software by HashiCorp. It
+    allows users to define a datacenter infrastructure in a high-level
+    configuration language, from which it can create an execution plan
+    to build the infrastructure in a service provider such as AWS.
+
+riot:
+  name: Riot
+  logo: riot.png
+  category: Frontend Framework
+  url: http://riotjs.com/
+  description: >-
+    A simple and elegant component-based UI library.
+
+react:
+  name: React
+  priority: 70
+  logo: react.png
+  category: Frontend Framework
+  url: https://reactjs.org/
+  description: >-
+    The most popular Open Source Software of our times. (This it
+    proven by facts.)
+
+    React allows developers to create large web-applications that use
+    data and can change over time without reloading the page. It aims
+    primarily to provide speed, simplicity, and scalability. React
+    processes only user interfaces in applications.
+
+    It is maintained by Facebook, Instagram and a community of
+    individual developers and corporations.
+
+nodejs:
+  name: Node.js
+  priority: 60
+  logo: nodejs.png
+  category: Runtime Environment
+  url: https://nodejs.org/
+  description: >-
+    Node.js is a JavaScript runtime built on Chrome's V8 JavaScript
+    engine. Node.js uses an event-driven, non-blocking I/O model that
+    makes it lightweight and efficient. Node.js' package ecosystem,
+    npm, is the largest ecosystem of open source libraries in the
+    world.
+
+javascript:
+  name: Javascript
+  priority: 50
+  logo: javascript.png
+  category: Programming Language
+  description: >-
+    JavaScript is a high-level, dynamic, weakly typed,
+    prototype-based, multi-paradigm, and interpreted programming
+    language. Alongside HTML and CSS, JavaScript is one of the three
+    core technologies of World Wide Web content production. It is used
+    to make webpages interactive and provide online programs.
+
+    As a multi-paradigm language, JavaScript supports event-driven,
+    functional, and imperative (including object-oriented and
+    prototype-based) programming styles. It has an API for working
+    with text, arrays, dates, regular expressions, and basic
+    manipulation of the DOM, but the language itself does not include
+    any I/O, such as networking, storage, or graphics facilities,
+    relying for these upon the host environment in which it is
+    embedded.
+
+coffeescript:
+  name: CoffeeScript
+  logo: coffeescript.png
+  category: Programming Language
+  url: http://coffeescript.org/
+  description: >-
+    CoffeeScript is a language that compiles into
+    JavaScript. Underneath that awkward Java-esque patina, JavaScript
+    has always had a gorgeous heart. CoffeeScript is an attempt to
+    expose the good parts of JavaScript in a simple way.
+
+    The golden rule of CoffeeScript is "It's just JavaScript." The
+    code compiles one-to-one into the equivalent JS, and there is no
+    interpretation at runtime. You can use any existing JavaScript
+    library seamlessly from CoffeeScript (and vice-versa).
+
+protobuf:
+  name: Protocol Buffers
+  logo: google-dev.png
+  url: https://developers.google.com/protocol-buffers/
+  description: >-
+    Protocol buffers are Google's language-neutral, platform-neutral,
+    extensible mechanism for serializing structured data – think XML,
+    but smaller, faster, and simpler. You define how you want your
+    data to be structured once, then you can use special generated
+    source code to easily write and read your structured data to and
+    from a variety of data streams and using a variety of languages.
+
+ruby-on-rails:
+  name: Ruby On Rails
+  priority: 40
+  logo: rails.svg
+  category: Web Application Framework
+  url: http://rubyonrails.org/
+  description: >-
+    Ruby on Rails, or Rails, is a server-side web application
+    framework written in Ruby under the MIT License. Rails is a
+    model–view–controller (MVC) framework, providing default
+    structures for a database, a web service, and web pages. It
+    encourages and facilitates the use of web standards such as JSON
+    or XML for data transfer, and HTML, CSS and JavaScript for display
+    and user interfacing. In addition to MVC, Rails emphasizes the use
+    of other well-known software engineering patterns and paradigms,
+    including convention over configuration (CoC), don't repeat
+    yourself (DRY), and the active record pattern.
+
+debian:
+  name: Debian GNU/Linux
+  logo: debian.jpg
+  category: Operating System
+  url: https://www.debian.org/
+  description: >-
+    Debian is a Unix-like computer operating system that is composed
+    entirely of free software, most of which is under the GNU General
+    Public License and packaged by a group of individuals
+    participating in the Debian Project.
+
+    The project's work is carried out over the Internet by a team of
+    volunteers guided by the Debian Project Leader and three
+    foundational documents: the Debian Social Contract, the Debian
+    Constitution, and the Debian Free Software Guidelines. New
+    distributions are updated continually, and the next candidate is
+    released after a time-based freeze.
+
+reagent:
+  name: Reagent
+  logo: reagent.png
+  category: Front-end Framework
+  url: http://reagent-project.github.io/
+  description: >-
+    Reagent provides a minimalistic interface between ClojureScript
+    and React. It allows you to define efficient React components
+    using nothing but plain ClojureScript functions and data, that
+    describe your UI using a Hiccup-like syntax.
+
+    The goal of Reagent is to make it possible to define arbitrarily
+    complex UIs using just a couple of basic concepts, and to be fast
+    enough by default that you rarely have to care about performance.
+
+re-frame:
+  name: Re-Frame
+  logo: reframe.png
+  category: Front-end Framework
+  url: https://github.com/Day8/re-frame
+  description: >-
+    re-frame is a pattern for writing SPAs in ClojureScript, using
+    Reagent.
+
+react-native:
+  name: React Native
+  logo: reactnative.png
+  category: Front-end Framework
+  url: https://facebook.github.io/react-native/
+  description: >-
+    React Native lets you build mobile apps using only JavaScript. It
+    uses the same design as React, letting you compose a rich mobile
+    UI from declarative components.
+
+re-natal:
+  name: Re-Natal
+  #logo: renatal.png
+  category: Technology Bridge
+  url: https://github.com/drapanjanas/re-natal
+  description: >-
+    A utility for building ClojureScript-based React Native apps
+
+wordpress:
+  name: Wordpress
+  logo: wordpress.png
+
+adwords:
+  name: Google Adwords
+  logo: google-adwords.jpg
+
+ring:
+  name: Ring
+
+#saas:
+#  name: SaaS
+
+optaplanner:
+  name: OptaPlanner
+  logo: optaplanner.png
+  category: Constraint Solver
+  url: https://www.optaplanner.org/
+  description: >-
+    OptaPlanner is a constraint satisfaction solver. It optimizes
+    business resource planning use cases, such as Vehicle Routing,
+    Employee Rostering, Cloud Optimization, Job Scheduling, Bin
+    Packing and many more. Every organization faces such scheduling
+    puzzles: assign a limited set of constrained resources (employees,
+    assets, time and money) to provide products or services to
+    customers. OptaPlanner optimizes those planning problems to do
+    more business with less resources.
+
+    OptaPlanner is a lightweight, embeddable planning engine. It
+    enables normal Java™ programmers to solve optimization problems
+    efficiently. Constraints apply on plain domain objects and can
+    reuse existing code. There’s no need to input difficult
+    mathematical equations. Under the hood, OptaPlanner combines
+    sophisticated optimization heuristics and metaheuristics (such as
+    Tabu Search, Simulated Annealing and Late Acceptance) with very
+    efficient score calculation.
+
+    OptaPlanner is open source software, released under the Apache
+    Software License. It is written in 100% pure Java™, runs on any
+    JVM and is available in the Maven Central repository too.

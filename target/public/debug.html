@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html><body><h1>debug</h1><h2>fsdb</h2><pre>{:projects
+ {:collecture-web
+  {:description
+   "Collecture records your lectures and syncs them with its cloud-based app.",
+   :category "Education",
+   :name "Collecture",
+   :priority 10,
+   :url "https://collecture.io",
+   :image "/img/products/collecture.png",
+   :incubator-status
+   "Full product developed and used daily by lecturers and students alike.",
+   :people ["dibran" "phil" "alain" "ursula" "nick"],
+   :incubated 2016,
+   :technologies
+   ["ansible"
+    "clojure"
+    "cljs"
+    "ring"
+    "re-frame"
+    "rabbitmq"
+    "nginx"
+    "aws"
+    "reagent"
+    "react"
+    "postgresql"
+    "javascript"
+    "debian"]},
+  :kunstmuseum-chat
+  {:name "Kunstmuseum Basel Chat",
+   :image "/img/products/kunstmuseum-chat.png",
+   :priority 44,
+   :technologies ["node" "javascript" "faye" "riot"],
+   :people ["alain" "anna"],
+   :description
+   "A mobile-first chat application with an admin back-end. Visitors of Kunstmuseum Basel exhibitions can ask questions on iPads which are deployed throughout the museum and get instant feeback from curators, restaurators and art brokers."},
+  :quickshift-rails
+  {:description
+   "Genug vom ewigen Grübeln über Einsatzpläne? Wir auch! Deswegen bieten wir den vollautomatischen Einsatzplaner: QuickShift.",
+   :name "QuickShift",
+   :priority 30,
+   :url "https://quickshift.ch",
+   :image "/img/products/quickshift.png",
+   :incubator-status "MVP online and under further development.",
+   :people ["phil" "alain" "pascal" "micha"],
+   :incubated 2017,
+   :technologies
+   ["ruby"
+    "ruby-on-rails"
+    "riot"
+    "nginx"
+    "postgresql"
+    "debian"
+    "javascript"
+    "ansible"]},
+  :wittbib
+  {:name "Wittbib Library Management",
+   :opensourced 2012,
+   :priority 120,
+   :technologies
+   ["ruby-on-rails"
+    "saas"
+    "coffeescript"
+    "jquery"
+    "ruby"
+    "postgresql"],
+   :people ["phil" "alain"],
+   :description
+   "A library management application that we developed as a contribution to library organised by volunteers. Wittbib has the ability to scan ISBN numbers from a book using a hand scanner to look up book meta data in different databases. The books of the library can then be searched and lent to visitors. There is also a public searching interface as well as various export formats for the library."},
+  :p-slides
+  {:description
+   "p_slides is a \"static files only\", dead simple way to create semantic slides. It neither needs a server, installed software, pre-compilation nor a special editor. Neither editing nor presenting has any external dependencies - it's just a html file.",
+   :category "Education",
+   :name "p_slides",
+   :priority 50,
+   :url "https://github.com/munen/p_slides",
+   :image "/img/products/p_slides.png",
+   :people ["alain"],
+   :technologies ["html" "markdown" "javascript"],
+   :opensourced 2012},
+  :swiss-crowdfunder
+  {:name "Swiss Crowdfunder",
+   :url "https://swiss-crowdfunder.com",
+   :image "/img/products/swiss-crowdfunder.png",
+   :opensourced 2017,
+   :priority 10,
+   :technologies
+   ["ruby-on-rails"
+    "saas"
+    "javascript"
+    "ruby"
+    "nginx"
+    "postgresql"
+    "debian"],
+   :people ["alain" "nico" "sanghee"],
+   :description
+   "Swiss Crowdfunder is a crowd funding and equity funding platform. It is a joint product with [ungleich glarus ag](https://ungleich.ch/).\n## Why did we do it?\nCrowdfunding using established platforms can be very expensive. Usually, there is a fee of 12-20% that has to be paid. **Swiss Crowdfunder** is fully open source - therefore it can be used by anyone to start their own crowdfunding platform or campaign.\n## Open source\n**Swiss Crowdfunder** is released under the popular [AGPL license](https://github.com/200ok-ungleich/swiss-crowdfunder/blob/master/LICENSE), has a [contribution guide](https://github.com/200ok-ungleich/swiss-crowdfunder/blob/master/CONTRIBUTING.md) as well as a [code of conduct](https://github.com/200ok-ungleich/swiss-crowdfunder/blob/master/CODE_OF_CONDUCT.md), is [fully configurable](https://github.com/200ok-ungleich/swiss-crowdfunder#configuration) and has a community [Mattermost chatroom](https://github.com/200ok-ungleich/swiss-crowdfunder#configuration).\nFor more information, visit [https://github.com/200ok-ungleich/swiss-crowdfunder](https://github.com/200ok-ungleich/swiss-crowdfunder), star the project and become part of it!\n## Hosted SaaS\nNext to the OSS version, we run and support our hosted SaaS version at [https://swiss-crowdfunder.com/](https://swiss-crowdfunder.com/). If you don't want to get too technical, get in touch with us at info@200ok.ch and we will host your campaign for an 8% fee.\nWe also offer coaching and support in how to set up a proper crowdfunding campaign and optimize your marketing efforts. Call or write us anytime!"},
+  :voicerepublic-site
+  {:name "Voice Republic",
+   :image "/img/products/voicerepublic.png",
+   :priority 30,
+   :incubated 2014,
+   :incubator-status
+   "Full product developed, 7-digits capital raised.",
+   :people ["phil" "alain" "nick" "josef"],
+   :technologies
+   ["ruby-on-rails"
+    "cljs"
+    "clojure"
+    "faye"
+    "rabbitmq"
+    "icecast"
+    "liquidsoap"
+    "ruby"
+    "nginx"
+    "aws"
+    "elk"
+    "d3"
+    "reagent"
+    "react"
+    "postgresql"
+    "duct"
+    "javascript"
+    "coffeescript"
+    "debian"],
+   :description
+   "Professional live audio streaming and archiving of events. Whether you want to stream your event live or record it and upload the files - with Voice Republic you’ll easily create your own audio channel.\nPROFESSIONAL STREAMING SOLUTION The StreamBoxx is developed to stream and archive events. All live streams can be controlled via your web browser from anywhere you like."},
+  :200ok-site
+  {:name "200ok Website",
+   :url "https://gitlab.com/200ok/200ok.gitlab.io",
+   :image "/img/products/200ok.ch.png",
+   :opensourced 2016,
+   :priority 60,
+   :technologies ["clojure" "boot" "perun" "hiccup" "fsdb"],
+   :people ["phil" "alain"],
+   :description
+   "\"You're lookin' at it, baby! The setup behind this website is cooler than you might think. Because it's totally data-driven. That's right. Robots 'n stuff.\""},
+  :codegraph
+  {:name "Codegraph",
+   :url "https://gitlab.com/200ok/codegraph",
+   :image "/img/products/codegraph.png",
+   :opensourced 2016,
+   :priority 80,
+   :technologies ["clojure" "graphviz"],
+   :people ["phil"],
+   :description
+   "Codegraph is a command utility written in about 50 lines of Clojure. It reads Clojure code with Clojure's builtin function `read-string`, analyzes the code and generates a dot file, which can be fed into Graphviz to generate a dependency graph of the given code. It works nicely with ClojureScript. And it's a beautiful demonstration of Clojure's homoiconicity (which is a fancy technical term for \"code is data\")."},
+  :webhooks
+  {:name "Webhooks",
+   :url "https://gitlab.com/200ok/webhooks",
+   :opensourced 2017,
+   :priority 90,
+   :technologies ["clojure"],
+   :people ["phil"],
+   :description
+   "Webhooks is a lightweight webhooks server written in Clojure. It allows to set up webhook endpoints and corresponding shell commands, which will be executed when the endpoint is requested. The config file is written in EDN (the preferred clojure data format). The config file will be read per request, so there is no restart required after updating the config file."},
+  :meetup-calendar
+  {:name "Meetup Calendar Microservice",
+   :opensourced 2015,
+   :priority 110,
+   :url "https://github.com/munen/meetup-calendar",
+   :technologies ["ruby" "sinatra" "heroku" "haml" "css"],
+   :people ["alain"],
+   :description
+   "A microservice accessing the Meetup API and rendering a HTML table for any given meetup. We are also making a free hosted SaaS version available."},
+  :wilmalivestats
+  {:people ["phil"], :technologies ["ruby-on-rails" "aws" "faye"]},
+  :voicerepublic-backoffice
+  {:people ["phil" "alain" "nick"],
+   :technologies
+   ["ruby-on-rails"
+    "cljs"
+    "faye"
+    "rabbitmq"
+    "ruby"
+    "nginx"
+    "aws"
+    "d3"
+    "reagent"
+    "react"
+    "postgresql"
+    "javascript"
+    "debian"]},
+  :pseudocult
+  {:name "Pseudocult",
+   :url "https://gitlab.com/200ok/pseudocult",
+   :category "Cloud Configuration",
+   :opensourced 2017,
+   :priority 100,
+   :technologies ["clojure" "aws" "amazonica"],
+   :people ["phil"],
+   :description
+   "Pseudocult (which is an anagram to \"cloud setup\") enables you to set up your cloud (AWS) declarativly and consistently.\nIt is mainly a clojure program that you run providing one or more config files, which describe your cloud setup. Pseudocult will detect discrepancies between the current state of the cloud and the description obtained from the config files as well as take action to overcome the discrepencies."},
+  :collecture-mobile
+  {:name "Collecture Mobile Apps",
+   :priority 20,
+   :image "/img/products/collecture-mobile.png",
+   :category "Education",
+   :people ["dibran" "phil" "alain"],
+   :technologies
+   ["reagent" "re-frame" "react-native" "re-natal" "cljs" "aws"],
+   :description
+   "iOS and Android mobile apps to record, organize and share lectures and meetings on collecture.io."},
+  :quickshift-java
+  {:people ["pascal" "mischa"],
+   :technologies ["java" "optaplanner" "drools"]},
+  :wilmaaepg
+  {:people ["phil"],
+   :technologies ["ruby-on-rails" "google-protocol-buffers"]},
+  :zen-temple
+  {:name "Insopor Zen Academy",
+   :url "http://zen-temple.net",
+   :image "/img/products/zen-temple.png",
+   :priority 47,
+   :people ["alain"],
+   :technologies
+   ["wordpress"
+    "javascript"
+    "clojure"
+    "heroku"
+    "ruby"
+    "sinatra"
+    "adwords"],
+   :description
+   "zen-temple.net is a multilingual, SEO optimized website with over 500 landing pages, each with automated integrations into 8 social media networks. It feeds data from specialized microservices and has automated integration into Google Adwords."},
+  :voicerepublic-mobile
+  {:people ["dibran"], :technologies ["angular" "ionic"]},
+  :fsdb
+  {:name "fsdb",
+   :url "https://gitlab.com/200ok/fsdb",
+   :opensourced 2017,
+   :priority 70,
+   :technologies ["clojure"],
+   :people ["phil"],
+   :description
+   "A Clojure library that provides a reasonably convenient database on top of the file system."},
+  :simplatyser
+  {:description
+   "Simplatyser automates manual tasks for you with the power of the cloud.",
+   :name "Simplatyser",
+   :priority 45,
+   :url "https://simplatyser.ch/",
+   :image "/img/products/simplatyser.png",
+   :incubator-status "MVP online and usable, but currently on hold.",
+   :people ["max" "raphael" "alain" "phil"],
+   :incubated 2015,
+   :technologies
+   ["java"
+    "jhipster"
+    "postgresql"
+    "angular"
+    "debian"
+    "docker"
+    "clojure"]},
+  :wilmaaautoscaling {:technologies ["aws"]}},
+ :clients
+ {:voicerepublic
+  {:name "Voice Republic Media AG",
+   :position 60,
+   :logo "vr.svg",
+   :url "https://voicerepublic.com"},
+  :bos-schweiz
+  {:name "BOS Schweiz",
+   :position 90,
+   :logo "bos-schweiz.jpg",
+   :url "http://www.bos-schweiz.ch",
+   :projects ["webhooks"]},
+  :sva
+  {:name "SVA Zürich",
+   :position 10,
+   :logo "logo_sva_zuerich.svg",
+   :url "https://www.svazurich.ch"},
+  :livingdocs
+  {:name "Livingdocs",
+   :position 70,
+   :logo "livingdocs_logo.png",
+   :url "https://livingdocs.io/"},
+  :kunstmuseumbasel
+  {:name "Kunstmuseum Basel",
+   :position 50,
+   :logo "logo_kumu_basel_rot.gif",
+   :url "https://kunstmuseumbasel.ch/",
+   :projects ["kunstmuseum-chat"]},
+  :zhaw
+  {:name "ZHAW Zurich University of Applied Sciences",
+   :position 20,
+   :logo "zhaw_soe.jpg",
+   :url "https://www.zhaw.ch/en/engineering/"},
+  :sourcepole
+  {:name "Sourcepole AG",
+   :position 80,
+   :logo "sourcepole.png",
+   :url "https://sourcepole.ch"},
+  :wilmaa
+  {:name "Wilmaa",
+   :position 40,
+   :logo "wilmaa_logo.png",
+   :url "https://wilmaa.com"},
+  :nzz
+  {:name "NZZ",
+   :position 30,
+   :logo "nzz_logo.png",
+   :url "https://nzz.ch"}},
+ :tour
+ ["/"
+  "/team.html"
+  "/technologies.html"
+  "/clients.html"
+  "/services.html"
+  "/projects.html"
+  "/opensource.html"],
+ :expertises
+ {:cloud
+  {:name "Cloud Infrastructure",
+   :technologies ["aws" "terraform" "ansible"]},
+  :audio {:name "Audio Live Streaming and Processing"},
+  :data {:name "Data Science & Visualization"}},
+ :people
+ {:dibran
+  {:position 3,
+   :name "Dibran Isufi",
+   :title "Code Gluer",
+   :programming_since 2013,
+   :incubator_almuni 2016},
+  :nick
+  {:position 5,
+   :name "Nick Niles",
+   :title "Product Designer",
+   :description
+   "A former rock musician and long-distance runner from Northern California, Nick has been designing and building web sites since 1997. With a background in design & technology, and an MFA in Film Directing from Columbia University, he enjoy telling stories through motion graphics, animations, and rich digital experiences."},
+  :micha {:name "Micha Steiner", :incubator_almuni 2017},
+  :pascal {:name "Pascal Huber", :incubator_almuni 2017},
+  :alain
+  {:position 1,
+   :name "Alain M. Lafon",
+   :title "Founder & CEO",
+   :programming_since 1999,
+   :description
+   "Alain has been programming for the web since 2004. He is an avid follower of Web Standards and constantly improving his own productivity as well as the productivity of the team he is working with by his profound knowledge about agile methodologies as well as tooling to facilitate a smooth software development process. He is also a lecturer at [ZHAW](http://zhaw.ch) and an ordained monk tending to a [Zen Temple](http://zen-temple.net/zen-temples/lambda-zen-temple/introduction/) in Glarus, Switzerland."},
+  :savino {:name "Savino Jossi"},
+  :phil
+  {:position 2,
+   :name "Phil Hofmann",
+   :title "Founder",
+   :description
+   "Phil has been programming for the web since 1999. He is an experienced Software Engineer.",
+   :programming_since 1997,
+   :technologies {:ruby-on-rails 2006, :clojure 2010}},
+  :anna {:name "Anna Kälin"},
+  :daniel {:name "Daniel Einars"},
+  :max {:name "Max Schrimpf", :incubator_alumni 2015},
+  :raffael {:name "Raffael Santschi", :incubator_alumni 2015},
+  :ursula
+  {:position 4,
+   :name "Ursula Ledergerber",
+   :title "Head of Communications"}},
+ :technologies
+ {:coffeescript
+  {:name "CoffeeScript",
+   :logo "coffeescript.png",
+   :category "Programming Language",
+   :url "http://coffeescript.org/",
+   :description
+   "CoffeeScript is a language that compiles into JavaScript. Underneath that awkward Java-esque patina, JavaScript has always had a gorgeous heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.\nThe golden rule of CoffeeScript is \"It's just JavaScript.\" The code compiles one-to-one into the equivalent JS, and there is no interpretation at runtime. You can use any existing JavaScript library seamlessly from CoffeeScript (and vice-versa)."},
+  :javascript
+  {:name "Javascript",
+   :priority 50,
+   :logo "javascript.png",
+   :category "Programming Language",
+   :description
+   "JavaScript is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs.\nAs a multi-paradigm language, JavaScript supports event-driven, functional, and imperative (including object-oriented and prototype-based) programming styles. It has an API for working with text, arrays, dates, regular expressions, and basic manipulation of the DOM, but the language itself does not include any I/O, such as networking, storage, or graphics facilities, relying for these upon the host environment in which it is embedded."},
+  :riot
+  {:name "Riot",
+   :logo "riot.png",
+   :category "Frontend Framework",
+   :url "http://riotjs.com/",
+   :description "A simple and elegant component-based UI library."},
+  :react
+  {:name "React",
+   :priority 70,
+   :logo "react.png",
+   :category "Frontend Framework",
+   :url "https://reactjs.org/",
+   :description
+   "The most popular Open Source Software of our times. (This it proven by facts.)\nReact allows developers to create large web-applications that use data and can change over time without reloading the page. It aims primarily to provide speed, simplicity, and scalability. React processes only user interfaces in applications.\nIt is maintained by Facebook, Instagram and a community of individual developers and corporations."},
+  :r
+  {:name "R",
+   :priority 80,
+   :logo "r.svg",
+   :category "Programming Language",
+   :url "https://www.r-project.org/",
+   :description
+   "R is an open source programming language and software environment for statistical computing and graphics that is supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data miners for developing statistical software and data analysis."},
+  :aws
+  {:name "Amazon Web Services",
+   :priority 90,
+   :logo "aws.svg",
+   :category "Cloud Computing Platform",
+   :url "https://aws.amazon.com/"},
+  :faye
+  {:name "Faye",
+   :logo "faye.gif",
+   :category "Message Broker",
+   :url "https://faye.jcoglan.com/",
+   :description
+   "Faye is a publish-subscribe messaging system based on the Bayeux protocol. It provides message servers for Node.js and Ruby, and clients for use on the server and in all major web browsers."},
+  :postgresql
+  {:name "PostgreSQL",
+   :logo "postgresql.png",
+   :category "Database",
+   :url "https://www.postgresql.org/",
+   :description
+   "PostgreSQL is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards compliance. As a database server, its primary functions are to store data securely and return that data in response to requests from other software applications. It can handle workloads ranging from small single-machine applications to large Internet-facing applications (or for data warehousing) with many concurrent users."},
+  :ring {:name "Ring"},
+  :adwords {:name "Google Adwords", :logo "google-adwords.jpg"},
+  :clojure
+  {:name "Clojure",
+   :priority 10,
+   :logo "clojure.png",
+   :category "Programming Language",
+   :url "https://clojure.org/",
+   :description
+   "Clojure is a dynamic, general-purpose programming language, combining the approachability and interactive development of a scripting language with an efficient and robust infrastructure for multithreaded programming. Clojure is a compiled language, yet remains completely dynamic – every feature supported by Clojure is supported at runtime. Clojure provides easy access to the Java frameworks, with optional type hints and type inference, to ensure that calls to Java can avoid reflection.\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data philosophy and a powerful macro system. Clojure is predominantly a functional programming language, and features a rich set of immutable, persistent data structures. When mutable state is needed, Clojure offers a software transactional memory system and reactive Agent system that ensure clean, correct, multithreaded designs."},
+  :drools
+  {:name "Drools",
+   :logo "drools.png",
+   :category "Rule Engine",
+   :url "https://www.drools.org/",
+   :description
+   "Drools is a Business Rules Management System (BRMS) solution. It provides a core Business Rules Engine (BRE), a web authoring and rules management application (Drools Workbench) and an Eclipse IDE plugin for core development."},
+  :latex
+  {:name "LaTex",
+   :logo "latex.png",
+   :category "Document Preparation System",
+   :url "https://www.latex-project.org/",
+   :description
+   "LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents. LaTeX is available as free software."},
+  :nodejs
+  {:name "Node.js",
+   :priority 60,
+   :logo "nodejs.png",
+   :category "Runtime Environment",
+   :url "https://nodejs.org/",
+   :description
+   "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world."},
+  :optaplanner
+  {:name "OptaPlanner",
+   :logo "optaplanner.png",
+   :category "Constraint Solver",
+   :url "https://www.optaplanner.org/",
+   :description
+   "OptaPlanner is a constraint satisfaction solver. It optimizes business resource planning use cases, such as Vehicle Routing, Employee Rostering, Cloud Optimization, Job Scheduling, Bin Packing and many more. Every organization faces such scheduling puzzles: assign a limited set of constrained resources (employees, assets, time and money) to provide products or services to customers. OptaPlanner optimizes those planning problems to do more business with less resources.\nOptaPlanner is a lightweight, embeddable planning engine. It enables normal Java™ programmers to solve optimization problems efficiently. Constraints apply on plain domain objects and can reuse existing code. There’s no need to input difficult mathematical equations. Under the hood, OptaPlanner combines sophisticated optimization heuristics and metaheuristics (such as Tabu Search, Simulated Annealing and Late Acceptance) with very efficient score calculation.\nOptaPlanner is open source software, released under the Apache Software License. It is written in 100% pure Java™, runs on any JVM and is available in the Maven Central repository too."},
+  :livingdocs
+  {:name "Livingdocs",
+   :priority 52,
+   :category "CMS",
+   :logo "livingdocs.png",
+   :url "https://www.livingdocs.io/",
+   :description
+   "Livingdocs is not only a CMS but a component-based solution to publish across many devices and products."},
+  :react-native
+  {:name "React Native",
+   :logo "reactnative.png",
+   :category "Front-end Framework",
+   :url "https://facebook.github.io/react-native/",
+   :description
+   "React Native lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components."},
+  :nginx
+  {:name "Nginx",
+   :logo "nginx.png",
+   :category "Web Server",
+   :url "https://nginx.org/",
+   :description
+   "Nginx is a web server which can also be used as a reverse proxy, load balancer and HTTP cache.\nNginx is free and open source software, released under the terms of a BSD-like license. A large fraction of web servers use NGINX, often as a load balancer."},
+  :re-natal
+  {:name "Re-Natal",
+   :category "Technology Bridge",
+   :url "https://github.com/drapanjanas/re-natal",
+   :description
+   "A utility for building ClojureScript-based React Native apps"},
+  :ruby-on-rails
+  {:name "Ruby On Rails",
+   :priority 40,
+   :logo "rails.svg",
+   :category "Web Application Framework",
+   :url "http://rubyonrails.org/",
+   :description
+   "Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. It encourages and facilitates the use of web standards such as JSON or XML for data transfer, and HTML, CSS and JavaScript for display and user interfacing. In addition to MVC, Rails emphasizes the use of other well-known software engineering patterns and paradigms, including convention over configuration (CoC), don't repeat yourself (DRY), and the active record pattern."},
+  :protobuf
+  {:name "Protocol Buffers",
+   :logo "google-dev.png",
+   :url "https://developers.google.com/protocol-buffers/",
+   :description
+   "Protocol buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data – think XML, but smaller, faster, and simpler. You define how you want your data to be structured once, then you can use special generated source code to easily write and read your structured data to and from a variety of data streams and using a variety of languages."},
+  :wordpress {:name "Wordpress", :logo "wordpress.png"},
+  :re-frame
+  {:name "Re-Frame",
+   :logo "reframe.png",
+   :category "Front-end Framework",
+   :url "https://github.com/Day8/re-frame",
+   :description
+   "re-frame is a pattern for writing SPAs in ClojureScript, using Reagent."},
+  :duct
+  {:name "Duct",
+   :logo "duct.svg",
+   :category "Web Application Framework",
+   :url "https://github.com/duct-framework/duct",
+   :description
+   "Duct is a highly modular framework for building server-side applications in Clojure using data-driven architecture.\nIt is similar in scope to Arachne, and is based on Integrant. Duct builds applications around an immutable configuration that acts as a structural blueprint. The configuration can be manipulated and queried to produce sophisticated behavior."},
+  :elk
+  {:name "Elk",
+   :logo "elk.png",
+   :category "Analytics Solution",
+   :url "https://www.elastic.co/products"},
+  :ansible
+  {:name "Ansible",
+   :logo "ansible.png",
+   :category "System Configuration Management",
+   :url "https://www.ansible.com/",
+   :description
+   "Ansible is an open-source automation engine that automates software provisioning, configuration management, and application deployment."},
+  :reagent
+  {:name "Reagent",
+   :logo "reagent.png",
+   :category "Front-end Framework",
+   :url "http://reagent-project.github.io/",
+   :description
+   "Reagent provides a minimalistic interface between ClojureScript and React. It allows you to define efficient React components using nothing but plain ClojureScript functions and data, that describe your UI using a Hiccup-like syntax.\nThe goal of Reagent is to make it possible to define arbitrarily complex UIs using just a couple of basic concepts, and to be fast enough by default that you rarely have to care about performance."},
+  :terraform
+  {:name "Terraform",
+   :logo "terraform.svg",
+   :category "Cloud Configuration",
+   :url "https://www.terraform.io/",
+   :description
+   "Terraform is an infrastructure as code software by HashiCorp. It allows users to define a datacenter infrastructure in a high-level configuration language, from which it can create an execution plan to build the infrastructure in a service provider such as AWS."},
+  :d3
+  {:name "D3",
+   :priority 55,
+   :logo "d3.png",
+   :category "Visualization",
+   :url "https://d3js.org/",
+   :description
+   "D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation."},
+  :icecast
+  {:name "Icecast",
+   :logo "icecast.png",
+   :category "Media Streaming Server",
+   :url "http://icecast.org/",
+   :description
+   "Icecast is a streaming media (audio/video) server which currently supports Ogg (Vorbis and Theora), Opus, WebM and MP3 streams. It can be used to create an Internet radio station or a privately running jukebox and many things in between. It is very versatile in that new formats can be added relatively easily and supports open standards for communication and interaction."},
+  :debian
+  {:name "Debian GNU/Linux",
+   :logo "debian.jpg",
+   :category "Operating System",
+   :url "https://www.debian.org/",
+   :description
+   "Debian is a Unix-like computer operating system that is composed entirely of free software, most of which is under the GNU General Public License and packaged by a group of individuals participating in the Debian Project.\nThe project's work is carried out over the Internet by a team of volunteers guided by the Debian Project Leader and three foundational documents: the Debian Social Contract, the Debian Constitution, and the Debian Free Software Guidelines. New distributions are updated continually, and the next candidate is released after a time-based freeze."},
+  :rabbitmq
+  {:name "RabbitMQ",
+   :logo "rabbitmq.png",
+   :category "Message Broker",
+   :url "https://www.rabbitmq.com/",
+   :description
+   "With more than 35,000 production deployments of RabbitMQ world-wide at small startups and large enterprises, RabbitMQ is the most popular open source message broker.\nRabbitMQ is lightweight and easy to deploy on premises and in the cloud. It supports multiple messaging protocols. RabbitMQ can be deployed in distributed and federated configurations to meet high-scale, high-availability requirements."},
+  :heroku
+  {:name "Heroku",
+   :logo "heroku.jpg",
+   :category "Cloud Computing Platform",
+   :description
+   "Heroku is a cloud platform as a service (PaaS) supporting several programming languages that is used as a web application deployment model. Heroku, one of the first cloud platforms, has been in development since June 2007, when it supported only the Ruby programming language, but now supports Java, Node.js, Scala, Clojure, Python, PHP, and Go."},
+  :cljs
+  {:name "ClojureScript",
+   :priority 20,
+   :logo "cljs.svg",
+   :category "Programming Language",
+   :url "https://clojurescript.org/",
+   :description
+   "ClojureScript is a compiler for Clojure that targets JavaScript. It emits JavaScript code which is compatible with the advanced compilation mode of the Google Closure optimizing compiler."},
+  :ruby
+  {:name "Ruby",
+   :priority 30,
+   :logo "ruby.png",
+   :category "Programming Language",
+   :url "https://www.ruby-lang.org/",
+   :description
+   "Ruby is a dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write."},
+  :liquidsoap
+  {:name "Liquidsoap",
+   :logo "liquidsoap.png",
+   :category "Programming Language",
+   :url "http://liquidsoap.fm/",
+   :description
+   "Liquidsoap is the swiss-army knife for multimedia streaming, notably used for netradios and webtvs. It has tons of features, it's free and it's open-source!"}},
+ :services
+ {:development
+  {:name "Software Development",
+   :description
+   "We love technology & and we surely love to code. Whether you need a custom solution for your business or you need someone to code your idea, which most definitely will become the next Twitter or Facebook, drop us a line or use the chat on this site to get in contact. We're looking forward to hearing from you."},
+  :consulting
+  {:name "Consulting",
+   :description
+   "Our team covers a broad palette of technologies as well as whole technology stacks and brings plenty of years of experience to the table. We offer onsite technology consulting. Whether you are about to start a green field project or try to bring change to an existing software solution, we can help you to move forward and meet your goals."},
+  :training
+  {:name "Training",
+   :description
+   "We not only love code, we also love to teach coding: \"Code excellent and talk about it.\" You want your team hit the ground running with a new technology? Training is the way to go. We offer single- and multi-day training courses for a couple of technologies that will boost the productivity of your team. Let us know about your ideas and together we will figure something out that meet you needs."},
+  :opensource-integration
+  {:name "Open Source Integration",
+   :description
+   "As an open source integrator we offer cost effective solutions built on top of the most proven open source technologies. Open Source is a treasure trove of well established solutions that can help you digitize and transform your business. Having not only released and contributed to a lot of open source projects, but also having studied open source scientifically we understand what makes open source tick and how to make it work for you."},
+  :coaching
+  {:name "Coaching",
+   :description
+   "Don't make the same mistakes we did! Take the shortcut, by letting us help you avoid the same traps. We've plenty of experience in software development and we like to share it. It's not only knowing your way around technology. It's also about how you think about it and how you do it. Whether as an individual or a small team coaching is probably the most effective way to acquire new skills and to learn and adopt a mindset that helps building better software."},
+  :workshops
+  {:name "Workshops",
+   :description
+   "Building a successful company is hard. Really hard. At 200ok, we have launched multiple incubators and spinned-off companies, so we have a little experience in how to optimize your chances of success. For that we have created multiple workshops: <strong>Traction</strong>: A startup guide to getting customers. <strong>Bullseye</strong>: The Bullseye framework is designed to be a straightforward way to direct your traction focus and maximize your results. <strong>Lean Startup</strong>: Be more innovative. Stop wasting people's time. Be more successful."},
+  :hosting
+  {:name "Hosting & Maintenance",
+   :description
+   "We support our clients and products in all areas of Unix/Linux infrastructure. 200ok works with true DevOps in mind where our developers are not just developers, but have a strong background in different flavors of Unix and Linux. All our applications are deployed through automated configuration management, many run within containers, all have automated monitoring and exception notification and either run in Swiss data centers on private networks or on any cloud service provider.\nWe also offer to support and maintain the applications that we build at various levels to meet the clients' demands - from regular security updates to adding new functionality. In cooperation with our partners we are able to provide 24/7 on-call service."}}}</pre><h2>meta</h2><pre>{:description "Awesome stuff",
+ :doc-root "public",
+ :subdescription "based in beautiful US of A and the Internetz",
+ :io.perun/version "0.4.2-SNAPSHOT",
+ :base-url "http://yetibot.github.io/",
+ :author "Vic",
+ :categories
+ ({:path "public/posts/yetibot-in-the-media.html",
+   :category "yetibot",
+   :ttr 6,
+   :tags "yetibot",
+   :slug "yetibot-in-the-media",
+   :date-created #inst "2017-12-06T00:00:00.000-00:00",
+   :permalink "/posts/yetibot-in-the-media.html",
+   :include-atom true,
+   :out-dir "public",
+   :full-path
+   "/home/vic/.boot/cache/tmp/home/vic/yetibot.github.io/29m/doo9u2/public/posts/yetibot-in-the-media.html",
+   :parent-path "public/posts/",
+   :title "Yetibot in the media",
+   :canonical-url
+   "http://yetibot.github.io/posts/yetibot-in-the-media.html",
+   :short-filename "yetibot-in-the-media",
+   :extension "html",
+   :filename "yetibot-in-the-media.html",
+   :original-path "posts/2017-12-04-yetibot-in-the-media.md",
+   :include-rss true,
+   :uuid "872f6e3125239358594e523c5a251ab1",
+   :target "dev",
+   :io.perun/trace
+   [:io.perun/yaml-metadata
+    :io.perun/markdown
+    :io.perun/slug
+    :io.perun/ttr],
+   :authors "Vic"}),
+ :date-build #inst "2017-12-13T15:30:12.064-00:00",
+ :target "dev",
+ :fsdb
+ {:manifest
+  {:projects
+   {:collecture-web
+    {:description
+     "Collecture records your lectures and syncs them with its cloud-based app.",
+     :category "Education",
+     :name "Collecture",
+     :priority 10,
+     :url "https://collecture.io",
+     :image "/img/products/collecture.png",
+     :incubator-status
+     "Full product developed and used daily by lecturers and students alike.",
+     :people ["dibran" "phil" "alain" "ursula" "nick"],
+     :incubated 2016,
+     :technologies
+     ["ansible"
+      "clojure"
+      "cljs"
+      "ring"
+      "re-frame"
+      "rabbitmq"
+      "nginx"
+      "aws"
+      "reagent"
+      "react"
+      "postgresql"
+      "javascript"
+      "debian"]},
+    :kunstmuseum-chat
+    {:name "Kunstmuseum Basel Chat",
+     :image "/img/products/kunstmuseum-chat.png",
+     :priority 44,
+     :technologies ["node" "javascript" "faye" "riot"],
+     :people ["alain" "anna"],
+     :description
+     "A mobile-first chat application with an admin back-end. Visitors of Kunstmuseum Basel exhibitions can ask questions on iPads which are deployed throughout the museum and get instant feeback from curators, restaurators and art brokers."},
+    :quickshift-rails
+    {:description
+     "Genug vom ewigen Grübeln über Einsatzpläne? Wir auch! Deswegen bieten wir den vollautomatischen Einsatzplaner: QuickShift.",
+     :name "QuickShift",
+     :priority 30,
+     :url "https://quickshift.ch",
+     :image "/img/products/quickshift.png",
+     :incubator-status "MVP online and under further development.",
+     :people ["phil" "alain" "pascal" "micha"],
+     :incubated 2017,
+     :technologies
+     ["ruby"
+      "ruby-on-rails"
+      "riot"
+      "nginx"
+      "postgresql"
+      "debian"
+      "javascript"
+      "ansible"]},
+    :wittbib
+    {:name "Wittbib Library Management",
+     :opensourced 2012,
+     :priority 120,
+     :technologies
+     ["ruby-on-rails"
+      "saas"
+      "coffeescript"
+      "jquery"
+      "ruby"
+      "postgresql"],
+     :people ["phil" "alain"],
+     :description
+     "A library management application that we developed as a contribution to library organised by volunteers. Wittbib has the ability to scan ISBN numbers from a book using a hand scanner to look up book meta data in different databases. The books of the library can then be searched and lent to visitors. There is also a public searching interface as well as various export formats for the library."},
+    :p-slides
+    {:description
+     "p_slides is a \"static files only\", dead simple way to create semantic slides. It neither needs a server, installed software, pre-compilation nor a special editor. Neither editing nor presenting has any external dependencies - it's just a html file.",
+     :category "Education",
+     :name "p_slides",
+     :priority 50,
+     :url "https://github.com/munen/p_slides",
+     :image "/img/products/p_slides.png",
+     :people ["alain"],
+     :technologies ["html" "markdown" "javascript"],
+     :opensourced 2012},
+    :swiss-crowdfunder
+    {:name "Swiss Crowdfunder",
+     :url "https://swiss-crowdfunder.com",
+     :image "/img/products/swiss-crowdfunder.png",
+     :opensourced 2017,
+     :priority 10,
+     :technologies
+     ["ruby-on-rails"
+      "saas"
+      "javascript"
+      "ruby"
+      "nginx"
+      "postgresql"
+      "debian"],
+     :people ["alain" "nico" "sanghee"],
+     :description
+     "Swiss Crowdfunder is a crowd funding and equity funding platform. It is a joint product with [ungleich glarus ag](https://ungleich.ch/).\n## Why did we do it?\nCrowdfunding using established platforms can be very expensive. Usually, there is a fee of 12-20% that has to be paid. **Swiss Crowdfunder** is fully open source - therefore it can be used by anyone to start their own crowdfunding platform or campaign.\n## Open source\n**Swiss Crowdfunder** is released under the popular [AGPL license](https://github.com/200ok-ungleich/swiss-crowdfunder/blob/master/LICENSE), has a [contribution guide](https://github.com/200ok-ungleich/swiss-crowdfunder/blob/master/CONTRIBUTING.md) as well as a [code of conduct](https://github.com/200ok-ungleich/swiss-crowdfunder/blob/master/CODE_OF_CONDUCT.md), is [fully configurable](https://github.com/200ok-ungleich/swiss-crowdfunder#configuration) and has a community [Mattermost chatroom](https://github.com/200ok-ungleich/swiss-crowdfunder#configuration).\nFor more information, visit [https://github.com/200ok-ungleich/swiss-crowdfunder](https://github.com/200ok-ungleich/swiss-crowdfunder), star the project and become part of it!\n## Hosted SaaS\nNext to the OSS version, we run and support our hosted SaaS version at [https://swiss-crowdfunder.com/](https://swiss-crowdfunder.com/). If you don't want to get too technical, get in touch with us at info@200ok.ch and we will host your campaign for an 8% fee.\nWe also offer coaching and support in how to set up a proper crowdfunding campaign and optimize your marketing efforts. Call or write us anytime!"},
+    :voicerepublic-site
+    {:name "Voice Republic",
+     :image "/img/products/voicerepublic.png",
+     :priority 30,
+     :incubated 2014,
+     :incubator-status
+     "Full product developed, 7-digits capital raised.",
+     :people ["phil" "alain" "nick" "josef"],
+     :technologies
+     ["ruby-on-rails"
+      "cljs"
+      "clojure"
+      "faye"
+      "rabbitmq"
+      "icecast"
+      "liquidsoap"
+      "ruby"
+      "nginx"
+      "aws"
+      "elk"
+      "d3"
+      "reagent"
+      "react"
+      "postgresql"
+      "duct"
+      "javascript"
+      "coffeescript"
+      "debian"],
+     :description
+     "Professional live audio streaming and archiving of events. Whether you want to stream your event live or record it and upload the files - with Voice Republic you’ll easily create your own audio channel.\nPROFESSIONAL STREAMING SOLUTION The StreamBoxx is developed to stream and archive events. All live streams can be controlled via your web browser from anywhere you like."},
+    :200ok-site
+    {:name "200ok Website",
+     :url "https://gitlab.com/200ok/200ok.gitlab.io",
+     :image "/img/products/200ok.ch.png",
+     :opensourced 2016,
+     :priority 60,
+     :technologies ["clojure" "boot" "perun" "hiccup" "fsdb"],
+     :people ["phil" "alain"],
+     :description
+     "\"You're lookin' at it, baby! The setup behind this website is cooler than you might think. Because it's totally data-driven. That's right. Robots 'n stuff.\""},
+    :codegraph
+    {:name "Codegraph",
+     :url "https://gitlab.com/200ok/codegraph",
+     :image "/img/products/codegraph.png",
+     :opensourced 2016,
+     :priority 80,
+     :technologies ["clojure" "graphviz"],
+     :people ["phil"],
+     :description
+     "Codegraph is a command utility written in about 50 lines of Clojure. It reads Clojure code with Clojure's builtin function `read-string`, analyzes the code and generates a dot file, which can be fed into Graphviz to generate a dependency graph of the given code. It works nicely with ClojureScript. And it's a beautiful demonstration of Clojure's homoiconicity (which is a fancy technical term for \"code is data\")."},
+    :webhooks
+    {:name "Webhooks",
+     :url "https://gitlab.com/200ok/webhooks",
+     :opensourced 2017,
+     :priority 90,
+     :technologies ["clojure"],
+     :people ["phil"],
+     :description
+     "Webhooks is a lightweight webhooks server written in Clojure. It allows to set up webhook endpoints and corresponding shell commands, which will be executed when the endpoint is requested. The config file is written in EDN (the preferred clojure data format). The config file will be read per request, so there is no restart required after updating the config file."},
+    :meetup-calendar
+    {:name "Meetup Calendar Microservice",
+     :opensourced 2015,
+     :priority 110,
+     :url "https://github.com/munen/meetup-calendar",
+     :technologies ["ruby" "sinatra" "heroku" "haml" "css"],
+     :people ["alain"],
+     :description
+     "A microservice accessing the Meetup API and rendering a HTML table for any given meetup. We are also making a free hosted SaaS version available."},
+    :wilmalivestats
+    {:people ["phil"], :technologies ["ruby-on-rails" "aws" "faye"]},
+    :voicerepublic-backoffice
+    {:people ["phil" "alain" "nick"],
+     :technologies
+     ["ruby-on-rails"
+      "cljs"
+      "faye"
+      "rabbitmq"
+      "ruby"
+      "nginx"
+      "aws"
+      "d3"
+      "reagent"
+      "react"
+      "postgresql"
+      "javascript"
+      "debian"]},
+    :pseudocult
+    {:name "Pseudocult",
+     :url "https://gitlab.com/200ok/pseudocult",
+     :category "Cloud Configuration",
+     :opensourced 2017,
+     :priority 100,
+     :technologies ["clojure" "aws" "amazonica"],
+     :people ["phil"],
+     :description
+     "Pseudocult (which is an anagram to \"cloud setup\") enables you to set up your cloud (AWS) declarativly and consistently.\nIt is mainly a clojure program that you run providing one or more config files, which describe your cloud setup. Pseudocult will detect discrepancies between the current state of the cloud and the description obtained from the config files as well as take action to overcome the discrepencies."},
+    :collecture-mobile
+    {:name "Collecture Mobile Apps",
+     :priority 20,
+     :image "/img/products/collecture-mobile.png",
+     :category "Education",
+     :people ["dibran" "phil" "alain"],
+     :technologies
+     ["reagent" "re-frame" "react-native" "re-natal" "cljs" "aws"],
+     :description
+     "iOS and Android mobile apps to record, organize and share lectures and meetings on collecture.io."},
+    :quickshift-java
+    {:people ["pascal" "mischa"],
+     :technologies ["java" "optaplanner" "drools"]},
+    :wilmaaepg
+    {:people ["phil"],
+     :technologies ["ruby-on-rails" "google-protocol-buffers"]},
+    :zen-temple
+    {:name "Insopor Zen Academy",
+     :url "http://zen-temple.net",
+     :image "/img/products/zen-temple.png",
+     :priority 47,
+     :people ["alain"],
+     :technologies
+     ["wordpress"
+      "javascript"
+      "clojure"
+      "heroku"
+      "ruby"
+      "sinatra"
+      "adwords"],
+     :description
+     "zen-temple.net is a multilingual, SEO optimized website with over 500 landing pages, each with automated integrations into 8 social media networks. It feeds data from specialized microservices and has automated integration into Google Adwords."},
+    :voicerepublic-mobile
+    {:people ["dibran"], :technologies ["angular" "ionic"]},
+    :fsdb
+    {:name "fsdb",
+     :url "https://gitlab.com/200ok/fsdb",
+     :opensourced 2017,
+     :priority 70,
+     :technologies ["clojure"],
+     :people ["phil"],
+     :description
+     "A Clojure library that provides a reasonably convenient database on top of the file system."},
+    :simplatyser
+    {:description
+     "Simplatyser automates manual tasks for you with the power of the cloud.",
+     :name "Simplatyser",
+     :priority 45,
+     :url "https://simplatyser.ch/",
+     :image "/img/products/simplatyser.png",
+     :incubator-status "MVP online and usable, but currently on hold.",
+     :people ["max" "raphael" "alain" "phil"],
+     :incubated 2015,
+     :technologies
+     ["java"
+      "jhipster"
+      "postgresql"
+      "angular"
+      "debian"
+      "docker"
+      "clojure"]},
+    :wilmaaautoscaling {:technologies ["aws"]}},
+   :clients
+   {:voicerepublic
+    {:name "Voice Republic Media AG",
+     :position 60,
+     :logo "vr.svg",
+     :url "https://voicerepublic.com"},
+    :bos-schweiz
+    {:name "BOS Schweiz",
+     :position 90,
+     :logo "bos-schweiz.jpg",
+     :url "http://www.bos-schweiz.ch",
+     :projects ["webhooks"]},
+    :sva
+    {:name "SVA Zürich",
+     :position 10,
+     :logo "logo_sva_zuerich.svg",
+     :url "https://www.svazurich.ch"},
+    :livingdocs
+    {:name "Livingdocs",
+     :position 70,
+     :logo "livingdocs_logo.png",
+     :url "https://livingdocs.io/"},
+    :kunstmuseumbasel
+    {:name "Kunstmuseum Basel",
+     :position 50,
+     :logo "logo_kumu_basel_rot.gif",
+     :url "https://kunstmuseumbasel.ch/",
+     :projects ["kunstmuseum-chat"]},
+    :zhaw
+    {:name "ZHAW Zurich University of Applied Sciences",
+     :position 20,
+     :logo "zhaw_soe.jpg",
+     :url "https://www.zhaw.ch/en/engineering/"},
+    :sourcepole
+    {:name "Sourcepole AG",
+     :position 80,
+     :logo "sourcepole.png",
+     :url "https://sourcepole.ch"},
+    :wilmaa
+    {:name "Wilmaa",
+     :position 40,
+     :logo "wilmaa_logo.png",
+     :url "https://wilmaa.com"},
+    :nzz
+    {:name "NZZ",
+     :position 30,
+     :logo "nzz_logo.png",
+     :url "https://nzz.ch"}},
+   :tour
+   ["/"
+    "/team.html"
+    "/technologies.html"
+    "/clients.html"
+    "/services.html"
+    "/projects.html"
+    "/opensource.html"],
+   :expertises
+   {:cloud
+    {:name "Cloud Infrastructure",
+     :technologies ["aws" "terraform" "ansible"]},
+    :audio {:name "Audio Live Streaming and Processing"},
+    :data {:name "Data Science & Visualization"}},
+   :people
+   {:dibran
+    {:position 3,
+     :name "Dibran Isufi",
+     :title "Code Gluer",
+     :programming_since 2013,
+     :incubator_almuni 2016},
+    :nick
+    {:position 5,
+     :name "Nick Niles",
+     :title "Product Designer",
+     :description
+     "A former rock musician and long-distance runner from Northern California, Nick has been designing and building web sites since 1997. With a background in design & technology, and an MFA in Film Directing from Columbia University, he enjoy telling stories through motion graphics, animations, and rich digital experiences."},
+    :micha {:name "Micha Steiner", :incubator_almuni 2017},
+    :pascal {:name "Pascal Huber", :incubator_almuni 2017},
+    :alain
+    {:position 1,
+     :name "Alain M. Lafon",
+     :title "Founder & CEO",
+     :programming_since 1999,
+     :description
+     "Alain has been programming for the web since 2004. He is an avid follower of Web Standards and constantly improving his own productivity as well as the productivity of the team he is working with by his profound knowledge about agile methodologies as well as tooling to facilitate a smooth software development process. He is also a lecturer at [ZHAW](http://zhaw.ch) and an ordained monk tending to a [Zen Temple](http://zen-temple.net/zen-temples/lambda-zen-temple/introduction/) in Glarus, Switzerland."},
+    :savino {:name "Savino Jossi"},
+    :phil
+    {:position 2,
+     :name "Phil Hofmann",
+     :title "Founder",
+     :description
+     "Phil has been programming for the web since 1999. He is an experienced Software Engineer.",
+     :programming_since 1997,
+     :technologies {:ruby-on-rails 2006, :clojure 2010}},
+    :anna {:name "Anna Kälin"},
+    :daniel {:name "Daniel Einars"},
+    :max {:name "Max Schrimpf", :incubator_alumni 2015},
+    :raffael {:name "Raffael Santschi", :incubator_alumni 2015},
+    :ursula
+    {:position 4,
+     :name "Ursula Ledergerber",
+     :title "Head of Communications"}},
+   :technologies
+   {:coffeescript
+    {:name "CoffeeScript",
+     :logo "coffeescript.png",
+     :category "Programming Language",
+     :url "http://coffeescript.org/",
+     :description
+     "CoffeeScript is a language that compiles into JavaScript. Underneath that awkward Java-esque patina, JavaScript has always had a gorgeous heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.\nThe golden rule of CoffeeScript is \"It's just JavaScript.\" The code compiles one-to-one into the equivalent JS, and there is no interpretation at runtime. You can use any existing JavaScript library seamlessly from CoffeeScript (and vice-versa)."},
+    :javascript
+    {:name "Javascript",
+     :priority 50,
+     :logo "javascript.png",
+     :category "Programming Language",
+     :description
+     "JavaScript is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs.\nAs a multi-paradigm language, JavaScript supports event-driven, functional, and imperative (including object-oriented and prototype-based) programming styles. It has an API for working with text, arrays, dates, regular expressions, and basic manipulation of the DOM, but the language itself does not include any I/O, such as networking, storage, or graphics facilities, relying for these upon the host environment in which it is embedded."},
+    :riot
+    {:name "Riot",
+     :logo "riot.png",
+     :category "Frontend Framework",
+     :url "http://riotjs.com/",
+     :description "A simple and elegant component-based UI library."},
+    :react
+    {:name "React",
+     :priority 70,
+     :logo "react.png",
+     :category "Frontend Framework",
+     :url "https://reactjs.org/",
+     :description
+     "The most popular Open Source Software of our times. (This it proven by facts.)\nReact allows developers to create large web-applications that use data and can change over time without reloading the page. It aims primarily to provide speed, simplicity, and scalability. React processes only user interfaces in applications.\nIt is maintained by Facebook, Instagram and a community of individual developers and corporations."},
+    :r
+    {:name "R",
+     :priority 80,
+     :logo "r.svg",
+     :category "Programming Language",
+     :url "https://www.r-project.org/",
+     :description
+     "R is an open source programming language and software environment for statistical computing and graphics that is supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data miners for developing statistical software and data analysis."},
+    :aws
+    {:name "Amazon Web Services",
+     :priority 90,
+     :logo "aws.svg",
+     :category "Cloud Computing Platform",
+     :url "https://aws.amazon.com/"},
+    :faye
+    {:name "Faye",
+     :logo "faye.gif",
+     :category "Message Broker",
+     :url "https://faye.jcoglan.com/",
+     :description
+     "Faye is a publish-subscribe messaging system based on the Bayeux protocol. It provides message servers for Node.js and Ruby, and clients for use on the server and in all major web browsers."},
+    :postgresql
+    {:name "PostgreSQL",
+     :logo "postgresql.png",
+     :category "Database",
+     :url "https://www.postgresql.org/",
+     :description
+     "PostgreSQL is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards compliance. As a database server, its primary functions are to store data securely and return that data in response to requests from other software applications. It can handle workloads ranging from small single-machine applications to large Internet-facing applications (or for data warehousing) with many concurrent users."},
+    :ring {:name "Ring"},
+    :adwords {:name "Google Adwords", :logo "google-adwords.jpg"},
+    :clojure
+    {:name "Clojure",
+     :priority 10,
+     :logo "clojure.png",
+     :category "Programming Language",
+     :url "https://clojure.org/",
+     :description
+     "Clojure is a dynamic, general-purpose programming language, combining the approachability and interactive development of a scripting language with an efficient and robust infrastructure for multithreaded programming. Clojure is a compiled language, yet remains completely dynamic – every feature supported by Clojure is supported at runtime. Clojure provides easy access to the Java frameworks, with optional type hints and type inference, to ensure that calls to Java can avoid reflection.\nClojure is a dialect of Lisp, and shares with Lisp the code-as-data philosophy and a powerful macro system. Clojure is predominantly a functional programming language, and features a rich set of immutable, persistent data structures. When mutable state is needed, Clojure offers a software transactional memory system and reactive Agent system that ensure clean, correct, multithreaded designs."},
+    :drools
+    {:name "Drools",
+     :logo "drools.png",
+     :category "Rule Engine",
+     :url "https://www.drools.org/",
+     :description
+     "Drools is a Business Rules Management System (BRMS) solution. It provides a core Business Rules Engine (BRE), a web authoring and rules management application (Drools Workbench) and an Eclipse IDE plugin for core development."},
+    :latex
+    {:name "LaTex",
+     :logo "latex.png",
+     :category "Document Preparation System",
+     :url "https://www.latex-project.org/",
+     :description
+     "LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents. LaTeX is available as free software."},
+    :nodejs
+    {:name "Node.js",
+     :priority 60,
+     :logo "nodejs.png",
+     :category "Runtime Environment",
+     :url "https://nodejs.org/",
+     :description
+     "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world."},
+    :optaplanner
+    {:name "OptaPlanner",
+     :logo "optaplanner.png",
+     :category "Constraint Solver",
+     :url "https://www.optaplanner.org/",
+     :description
+     "OptaPlanner is a constraint satisfaction solver. It optimizes business resource planning use cases, such as Vehicle Routing, Employee Rostering, Cloud Optimization, Job Scheduling, Bin Packing and many more. Every organization faces such scheduling puzzles: assign a limited set of constrained resources (employees, assets, time and money) to provide products or services to customers. OptaPlanner optimizes those planning problems to do more business with less resources.\nOptaPlanner is a lightweight, embeddable planning engine. It enables normal Java™ programmers to solve optimization problems efficiently. Constraints apply on plain domain objects and can reuse existing code. There’s no need to input difficult mathematical equations. Under the hood, OptaPlanner combines sophisticated optimization heuristics and metaheuristics (such as Tabu Search, Simulated Annealing and Late Acceptance) with very efficient score calculation.\nOptaPlanner is open source software, released under the Apache Software License. It is written in 100% pure Java™, runs on any JVM and is available in the Maven Central repository too."},
+    :livingdocs
+    {:name "Livingdocs",
+     :priority 52,
+     :category "CMS",
+     :logo "livingdocs.png",
+     :url "https://www.livingdocs.io/",
+     :description
+     "Livingdocs is not only a CMS but a component-based solution to publish across many devices and products."},
+    :react-native
+    {:name "React Native",
+     :logo "reactnative.png",
+     :category "Front-end Framework",
+     :url "https://facebook.github.io/react-native/",
+     :description
+     "React Native lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components."},
+    :nginx
+    {:name "Nginx",
+     :logo "nginx.png",
+     :category "Web Server",
+     :url "https://nginx.org/",
+     :description
+     "Nginx is a web server which can also be used as a reverse proxy, load balancer and HTTP cache.\nNginx is free and open source software, released under the terms of a BSD-like license. A large fraction of web servers use NGINX, often as a load balancer."},
+    :re-natal
+    {:name "Re-Natal",
+     :category "Technology Bridge",
+     :url "https://github.com/drapanjanas/re-natal",
+     :description
+     "A utility for building ClojureScript-based React Native apps"},
+    :ruby-on-rails
+    {:name "Ruby On Rails",
+     :priority 40,
+     :logo "rails.svg",
+     :category "Web Application Framework",
+     :url "http://rubyonrails.org/",
+     :description
+     "Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. It encourages and facilitates the use of web standards such as JSON or XML for data transfer, and HTML, CSS and JavaScript for display and user interfacing. In addition to MVC, Rails emphasizes the use of other well-known software engineering patterns and paradigms, including convention over configuration (CoC), don't repeat yourself (DRY), and the active record pattern."},
+    :protobuf
+    {:name "Protocol Buffers",
+     :logo "google-dev.png",
+     :url "https://developers.google.com/protocol-buffers/",
+     :description
+     "Protocol buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data – think XML, but smaller, faster, and simpler. You define how you want your data to be structured once, then you can use special generated source code to easily write and read your structured data to and from a variety of data streams and using a variety of languages."},
+    :wordpress {:name "Wordpress", :logo "wordpress.png"},
+    :re-frame
+    {:name "Re-Frame",
+     :logo "reframe.png",
+     :category "Front-end Framework",
+     :url "https://github.com/Day8/re-frame",
+     :description
+     "re-frame is a pattern for writing SPAs in ClojureScript, using Reagent."},
+    :duct
+    {:name "Duct",
+     :logo "duct.svg",
+     :category "Web Application Framework",
+     :url "https://github.com/duct-framework/duct",
+     :description
+     "Duct is a highly modular framework for building server-side applications in Clojure using data-driven architecture.\nIt is similar in scope to Arachne, and is based on Integrant. Duct builds applications around an immutable configuration that acts as a structural blueprint. The configuration can be manipulated and queried to produce sophisticated behavior."},
+    :elk
+    {:name "Elk",
+     :logo "elk.png",
+     :category "Analytics Solution",
+     :url "https://www.elastic.co/products"},
+    :ansible
+    {:name "Ansible",
+     :logo "ansible.png",
+     :category "System Configuration Management",
+     :url "https://www.ansible.com/",
+     :description
+     "Ansible is an open-source automation engine that automates software provisioning, configuration management, and application deployment."},
+    :reagent
+    {:name "Reagent",
+     :logo "reagent.png",
+     :category "Front-end Framework",
+     :url "http://reagent-project.github.io/",
+     :description
+     "Reagent provides a minimalistic interface between ClojureScript and React. It allows you to define efficient React components using nothing but plain ClojureScript functions and data, that describe your UI using a Hiccup-like syntax.\nThe goal of Reagent is to make it possible to define arbitrarily complex UIs using just a couple of basic concepts, and to be fast enough by default that you rarely have to care about performance."},
+    :terraform
+    {:name "Terraform",
+     :logo "terraform.svg",
+     :category "Cloud Configuration",
+     :url "https://www.terraform.io/",
+     :description
+     "Terraform is an infrastructure as code software by HashiCorp. It allows users to define a datacenter infrastructure in a high-level configuration language, from which it can create an execution plan to build the infrastructure in a service provider such as AWS."},
+    :d3
+    {:name "D3",
+     :priority 55,
+     :logo "d3.png",
+     :category "Visualization",
+     :url "https://d3js.org/",
+     :description
+     "D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation."},
+    :icecast
+    {:name "Icecast",
+     :logo "icecast.png",
+     :category "Media Streaming Server",
+     :url "http://icecast.org/",
+     :description
+     "Icecast is a streaming media (audio/video) server which currently supports Ogg (Vorbis and Theora), Opus, WebM and MP3 streams. It can be used to create an Internet radio station or a privately running jukebox and many things in between. It is very versatile in that new formats can be added relatively easily and supports open standards for communication and interaction."},
+    :debian
+    {:name "Debian GNU/Linux",
+     :logo "debian.jpg",
+     :category "Operating System",
+     :url "https://www.debian.org/",
+     :description
+     "Debian is a Unix-like computer operating system that is composed entirely of free software, most of which is under the GNU General Public License and packaged by a group of individuals participating in the Debian Project.\nThe project's work is carried out over the Internet by a team of volunteers guided by the Debian Project Leader and three foundational documents: the Debian Social Contract, the Debian Constitution, and the Debian Free Software Guidelines. New distributions are updated continually, and the next candidate is released after a time-based freeze."},
+    :rabbitmq
+    {:name "RabbitMQ",
+     :logo "rabbitmq.png",
+     :category "Message Broker",
+     :url "https://www.rabbitmq.com/",
+     :description
+     "With more than 35,000 production deployments of RabbitMQ world-wide at small startups and large enterprises, RabbitMQ is the most popular open source message broker.\nRabbitMQ is lightweight and easy to deploy on premises and in the cloud. It supports multiple messaging protocols. RabbitMQ can be deployed in distributed and federated configurations to meet high-scale, high-availability requirements."},
+    :heroku
+    {:name "Heroku",
+     :logo "heroku.jpg",
+     :category "Cloud Computing Platform",
+     :description
+     "Heroku is a cloud platform as a service (PaaS) supporting several programming languages that is used as a web application deployment model. Heroku, one of the first cloud platforms, has been in development since June 2007, when it supported only the Ruby programming language, but now supports Java, Node.js, Scala, Clojure, Python, PHP, and Go."},
+    :cljs
+    {:name "ClojureScript",
+     :priority 20,
+     :logo "cljs.svg",
+     :category "Programming Language",
+     :url "https://clojurescript.org/",
+     :description
+     "ClojureScript is a compiler for Clojure that targets JavaScript. It emits JavaScript code which is compatible with the advanced compilation mode of the Google Closure optimizing compiler."},
+    :ruby
+    {:name "Ruby",
+     :priority 30,
+     :logo "ruby.png",
+     :category "Programming Language",
+     :url "https://www.ruby-lang.org/",
+     :description
+     "Ruby is a dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write."},
+    :liquidsoap
+    {:name "Liquidsoap",
+     :logo "liquidsoap.png",
+     :category "Programming Language",
+     :url "http://liquidsoap.fm/",
+     :description
+     "Liquidsoap is the swiss-army knife for multimedia streaming, notably used for netradios and webtvs. It has tons of features, it's free and it's open-source!"}},
+   :services
+   {:development
+    {:name "Software Development",
+     :description
+     "We love technology & and we surely love to code. Whether you need a custom solution for your business or you need someone to code your idea, which most definitely will become the next Twitter or Facebook, drop us a line or use the chat on this site to get in contact. We're looking forward to hearing from you."},
+    :consulting
+    {:name "Consulting",
+     :description
+     "Our team covers a broad palette of technologies as well as whole technology stacks and brings plenty of years of experience to the table. We offer onsite technology consulting. Whether you are about to start a green field project or try to bring change to an existing software solution, we can help you to move forward and meet your goals."},
+    :training
+    {:name "Training",
+     :description
+     "We not only love code, we also love to teach coding: \"Code excellent and talk about it.\" You want your team hit the ground running with a new technology? Training is the way to go. We offer single- and multi-day training courses for a couple of technologies that will boost the productivity of your team. Let us know about your ideas and together we will figure something out that meet you needs."},
+    :opensource-integration
+    {:name "Open Source Integration",
+     :description
+     "As an open source integrator we offer cost effective solutions built on top of the most proven open source technologies. Open Source is a treasure trove of well established solutions that can help you digitize and transform your business. Having not only released and contributed to a lot of open source projects, but also having studied open source scientifically we understand what makes open source tick and how to make it work for you."},
+    :coaching
+    {:name "Coaching",
+     :description
+     "Don't make the same mistakes we did! Take the shortcut, by letting us help you avoid the same traps. We've plenty of experience in software development and we like to share it. It's not only knowing your way around technology. It's also about how you think about it and how you do it. Whether as an individual or a small team coaching is probably the most effective way to acquire new skills and to learn and adopt a mindset that helps building better software."},
+    :workshops
+    {:name "Workshops",
+     :description
+     "Building a successful company is hard. Really hard. At 200ok, we have launched multiple incubators and spinned-off companies, so we have a little experience in how to optimize your chances of success. For that we have created multiple workshops: <strong>Traction</strong>: A startup guide to getting customers. <strong>Bullseye</strong>: The Bullseye framework is designed to be a straightforward way to direct your traction focus and maximize your results. <strong>Lean Startup</strong>: Be more innovative. Stop wasting people's time. Be more successful."},
+    :hosting
+    {:name "Hosting & Maintenance",
+     :description
+     "We support our clients and products in all areas of Unix/Linux infrastructure. 200ok works with true DevOps in mind where our developers are not just developers, but have a strong background in different flavors of Unix and Linux. All our applications are deployed through automated configuration management, many run within containers, all have automated monitoring and exception notification and either run in Swiss data centers on private networks or on any cloud service provider.\nWe also offer to support and maintain the applications that we build at various levels to meet the clients' demands - from regular security updates to adding new functionality. In cooperation with our partners we are able to provide 24/7 on-call service."}}}},
+ :site-title "Yetibot - IRC and Slack chatops magic"}</pre></body></html>
