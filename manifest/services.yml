@@ -17,42 +17,6 @@ consulting:
     existing software solution, we can help you to move forward and
     meet your goals.
 
-training:
-  name: Training
-  description: >-
-    We not only love code, we also love to teach coding: "Code
-    excellent and talk about it." You want your team hit the ground
-    running with a new technology? Training is the way to go. We offer
-    single- and multi-day training courses for a couple of
-    technologies that will boost the productivity of your team. Let us
-    know about your ideas and together we will figure something out
-    that meet you needs.
-
-opensource-integration:
-  name: Open Source Integration
-  description: >-
-    As an open source integrator we offer cost effective solutions
-    built on top of the most proven open source technologies. Open
-    Source is a treasure trove of well established solutions that can
-    help you digitize and transform your business. Having not only
-    released and contributed to a lot of open source projects, but
-    also having studied open source scientifically we understand what
-    makes open source tick and how to make it work for you.
-
-coaching:
-  name: Coaching
-  description: >-
-    Don't make the same mistakes we did! Take the shortcut, by letting
-    us help you avoid the same traps. We've plenty of experience in
-    software development and we like to share it. It's not only
-    knowing your way around technology. It's also about how you think
-    about it and how you do it. Whether as an individual or a small
-    team coaching is probably the most effective way to acquire new
-    skills and to learn and adopt a mindset that helps building better
-    software.
-
-# Problems - Shared Code ownership, Distributing
-# Responsibilities. Techniques - Code Reviews, Pair Programming,
 # Rubber Ducking. Through penty years iof experience we developed
 # our own most efficient way, meet the - Guided Review.
 

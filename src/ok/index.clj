@@ -34,21 +34,21 @@
          :itemtype "https://schema.org/Organization"}
    [:span
     [:meta {:itemprop "name"
-            :content "200ok GmbH"}]]
+            :content "Yertibot Corp"}]]
    [:span {:itemscope true
            :itemprop "logo"
            :itemtype "https://schema.org/ImageObject"
            }
     [:meta {:itemprop "url"
-            :content "http://200ok.gitlab.io/img/logo.png"}]]
+            :content "https://yetibot.github.io/img/logo.png"}]]
    [:span
     [:meta {:itemprop "legalName"
-            :content "200ok GmbH"}]]])
+            :content "Yetibot Corp"}]]])
 
 (defn- authors
-  "Get author(s). If there are none, return '200ok'."
+  "Get author(s). If there are none, return 'YetibotCorp'."
   [post]
-  (s/split (or (:authors post) "200ok") #"\s*,\s*"))
+  (s/split (or (:authors post) "YetibotCorp") #"\s*,\s*"))
 
 (defn- author-section
   [post]
@@ -103,9 +103,9 @@
    ])
 
 (defn- separated-tags
-  "Get tag(s). If there are none, return '200ok'."
+  "Get tag(s). If there are none, return 'YetibotCorp'."
   [post]
-  (s/split (or (:tags post) "200ok") #"\s*,\s*"))
+  (s/split (or (:tags post) "YetibotCorp") #"\s*,\s*"))
 
 ;; TODO: Refactor this to yield a unique keyword list
 ;; TODO: Find out how to yield the 'category' as focus keyword
@@ -144,7 +144,7 @@
       "Read more..."]]]])
 
 (defn- image-meta-data
-  "Add image meta data for the 200ok logo."
+  "Add image meta data for the Yetibot logo."
   []
   [:span {:itemscope true
           :itemprop "image"
@@ -155,7 +155,7 @@
    [:meta {:itemprop "width"
            :content "349"}]
    [:meta {:itemprop "url"
-           :content "http://200ok.gitlab.io/img/logo.png"}]])
+           :content "https://yetibot.github.io/img/logo.png"}]])
 
 (defn render-post
   "Renders a post as :article"
@@ -167,7 +167,7 @@
          :itemprop "url"}
      (:title post)]]
    (subheader-post post)
-   ;; Right now every post will get the 200ok logo as image meta data.
+   ;; Right now every post will get the Yetibot logo as image meta data.
    ;; This could be optimized: If a post actually uses a picture, this
    ;; could yield the meta data. For the moment the solution is good,
    ;; though, since schema.org requires a picture per BlogPosting.

@@ -1,11 +1,11 @@
 (set-env!
  :source-paths #{"src"}
  :resource-paths #{"resources" "assets"}
- :dependencies '[[org.clojure/clojure "1.8.0"]
+ :dependencies '[[org.clojure/clojure "1.9.0"]
                  [perun "0.4.2-SNAPSHOT"]
                  [hiccup "1.0.5"]
                  [garden "1.3.2"]
-                 [pandeiro/boot-http "0.7.3"]
+                 [pandeiro/boot-http "0.8.3"]
                  [markdown-clj "1.0.1"]
                  [jeluard/boot-notify "0.1.2" :scope "test"]
                  [cpmcdaniel/boot-copy "1.0"]
@@ -138,7 +138,7 @@
         ((task-fn next-task) fileset)))))
 
 (deftask build
-  "Build the 200ok page."
+  "Build the Yetibot page."
   []
   (let [is-of-type? (fn [{:keys [permalink]} doc-type] (.startsWith permalink (str "/" doc-type)))]
     (comp
@@ -221,10 +221,10 @@
      (perun/atom-feed :filterer #(is-of-type? % "posts")
                       ;; setting base-url explicitly is a quickfix for
                       ;; a perun bug of some sort
-                      :base-url "http://200ok.ch/")
+                      :base-url "https://yetibot.github.io/")
 
      (perun/static :renderer 'ok.static/letsencrypt
-                   :page ".well-known/acme-challenge/zN70yAoyS5KLi097MJd11yzKm0SKLGVDCU2lDAARsx0")
+                   :page ".well-known/acme-challenge/yN70yAoyS5KLi097MJd11yzKm0SKLGVDCU2lDAARsx1")
 
      ;;(notify)
      ;;(print-meta)
@@ -245,7 +245,7 @@
 (deftask prod
   []
   (comp
-   ;;(slack :message "<http://200ok.ch|200ok.ch> has been updated.")
+   ;;(slack :message "<https://yetibot.github.io|yetibot.github.io> has been updated.")
    (perun/global-metadata)
    (set-meta-data :key :target
                   :val "prod")

@@ -17,24 +17,24 @@
      :itemprop "publisher"
      :itemtype "https://schema.org/Organization"}
     [:div.name{:itemprop "name"}
-                  "200ok GmbH"]
+                  "Yetibot Corporation"]
     [:div{:itemprop "address"
                   :itemscope true
                   :itemtype "https://schema.org/PostalAddress"}
-     [:a {:href "https://goo.gl/maps/GNAoiNF7mbL2" :title "View on Google Maps"}
+     [:a {:href "https://www.google.ro/maps/place/Antarctica/@-82.862752,134.9978113,17z/data=!3m1!4b1!4m5!3m4!1s0xb09dff882a7809e1:0xb08d0a385dc8c7c7!8m2!3d-82.862752!4d135" :title "View on Google Maps"}
       [:div{:itemprop "streetAddress"}
-       "Badenerstrasse 313"]
+       "McMurdo Station"]
       [:div
        [:span{:itemprop "postalCode"}
-        "8003"]
+        "9999999999"]
        " "
        [:span{:itemprop "addressLocality"}
-        "Zürich"]]]]
+        "Antarctica City"]]]]
     [:div{:itemprop "telephone"}
-                  "+41 76 405 05 67"]
+                  "+9999999999999999"]
     [:div{:itemprop "email"}
-     [:a {:href "mailto:info@200ok.ch"}
-      "info@200ok.ch"]]]])
+     [:a {:href "mailto:contact@yetibot"}
+      "contact@yetibot"]]]])
 
 (defn back-arrow []
   [:svg#back-arrow {:x "0px", :y "0px", :viewbox "0 0 30 30"}
