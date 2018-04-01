@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Yetibot: Docs</title>
+    <link rel="canonical" href="http://yetibot.com/docs/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+    <link href="/css/main.css" rel="stylesheet" type="text/css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+  </head>
+  <body class="">
+
+
+    <div class="container main-content">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <img class="nav-logo" src="/img/yetibot_lambda_blue.svg"
+              alt="Yetibot: A powerful, expressive chatops platform written in Clojure."
+            />
+          </a>
+
+          
+          <a href="/docs/"
+             class="navbar-item is-active">
+            Docs
+          </a>
+          
+          <a href="/about/"
+             class="navbar-item ">
+            About
+          </a>
+          
+          <a href="/media/"
+             class="navbar-item ">
+            Media
+          </a>
+          
+          <a class="navbar-item " href="/archives/">Blog</a>
+
+          <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        
+
+<article class="page-title hero is-info is-bold">
+  <div class="hero-body">
+    <h2 class="title">Docs</h2>
+  </div>
+</article>
+
+<div class="container">
+<section class="content" id="custom-page">
+
+  <ol class="content"><li><a href="#basics">Basics</a></li><li><a href="#types">Types</a></li><li><a href="#pipes">Pipes</a></li><li><a href="#subexpressions">Subexpressions</a></li><li><a href="#xargs">Xargs</a></li><li><a href="#collection_utilities">Collection utilities</a></li><li><a href="#aliases">Aliases</a></li><li><a href="#observers">Observers</a></li><li><a href="#data">Data</a></li><li><a href="#cron">Cron</a></li><li><a href="#graphql_api">GraphQL API</a></li></ol>
+
+  <p><strong>Welcome to Yetibot docs!</strong></p><p>Let's walk through a few of the ways in which a user can interact with Yetibot. All the examples below are <strong>interactive</strong>. Click the button below each example evaluate the expression against the live, <a href="http://public.yetibot.com">public Yetibot instance</a> using the GraphQL API.</p><h2 id="basics">Basics</h2><pre><code class="yetibot">!echo hi
+</code></pre><p>This is what a simple command looks like. Yetibot should reply <code>hi</code>.</p><p>A little more dynamic example:</p><pre><code class="yetibot">!uptime
+</code></pre><h2 id="types">Types</h2><p>Yetibot responses are either:</p><ol><li>A single value</li><li>A collection of values</li></ol><p>There are no other types in Yetibot, though the underlying Clojure data structures in responses may contain more diverse responses, such as when returning the result of an API call.</p><p>Here's an example of a collection:</p><pre><code class="yetibot">!list 1 2 3
+</code></pre><p>To view the raw data structure type of a response in Yetibot, use <code>raw</code>. For example:</p><pre><code class="yetibot">!list 1 2 3 | raw
+</code></pre><h2 id="pipes">Pipes</h2><p>Pipes allow chaining together more complex expressions using the output of one command as the input of another command.</p><pre><code class="yetibot">!echo 1 | echo 2 | echo 3
+</code></pre><p>Notice how the output of each preceding command is appended to the end of the following command separated by a space. This is the default behavior, but you can also choose where to place arguments and control whitespace using <code>%s</code>:</p><pre><code class="yetibot">!echo foo | echo %sbar
+</code></pre><h2 id="subexpressions">Subexpressions</h2><p>Subexpressions let you build up more complex expressions by nesting one expression in another.</p><pre><code class="yetibot">!echo `echo Yetibot is` pretty cool
+</code></pre><p>Backticks are convenient when you need a single level of nesting, but <code>$&#40;&#41;</code> syntax lets you embed any level of nesting:</p><pre><code class="yetibot">!echo $&#40;echo $&#40;echo Yetibot&#41; is&#41; alive
+</code></pre><p>These examples are necessarily simplistic, but when you start piecing together more complex commands that fetch data the ability to arbitrarily nest expressions provides tremendous power.</p><h2 id="xargs">Xargs</h2><p>Xargs allows us to operate over a collection, evaluating an expression for each value, in parallel.</p><pre><code class="yetibot">!list 1 2 3 | xargs echo number | unwords
+</code></pre><h2 id="collection&#95;utilities">Collection utilities</h2><p>Since Yetibot can return a collection as a response, it needs basic operations to manipulate collections.</p><h2 id="aliases">Aliases</h2><p>Aliases are similar to <code>alias</code> in bash allowing us to give a name for a command.</p><h2 id="observers">Observers</h2><p>An observer listens for patterns and automatically runs commands when triggered.</p><h2 id="data">Data</h2><p>Yeibot commands by default return a pretty-printed response for human consumption, but the underlying data is preserved and accessible as well.</p><h2 id="cron">Cron</h2><p>Cron is, as you'd expect, a way to run a command on an interval given a cron expression.</p><h2 id="graphql&#95;api">GraphQL API</h2><p>Yetibot serves a GraphQL endpoint as part of its web app. The public Yetibot instance is accessible at <a href='https://public.yetibot.com/graphql'>https://public.yetibot.com/graphql</a>.</p><p>For example, to inspect the configured adapters run a query with a GraphQL client:</p><pre><code class="graphql">{
+  adapters {
+    uuid
+    platform
+  }
+}
+</code></pre>
+
+  <div id="prev-next">
+    
+    
+    
+    <a class="button is-info" href="/about/">About &raquo;</a>
+    
+  </div>
+
+</section>
+</div>
+
+
+      </div>
+
+    </div>
+
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Yetibot</strong> by <a href="https://devth.com">Trevor
+            Hartman</a> & contributors.
+          <br />
+          Distributed under the
+          <a href="https://opensource.org/licenses/eclipse-1.0.php">
+            Eclipse Public License 1.0</a>.
+          <br />
+          Artwork by
+          <a href="http://www.freeformdesign.co/">Freeform Design Co.</a>
+          in <strong>Montana</strong>.
+          <br />
+
+          This site is continously delivered from
+          <a href="https://github.com/yetibot/yetibot.github.io">
+             source</a>.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.rawgit.com/f/graphql.js/master/graphql.min.js"
+            type="text/javascript" charset="utf-8"></script>
+    <script src="/js/yetibot.js" type="text/javascript" charset="utf-8"></script>
+
+  </body>
+</html>
+

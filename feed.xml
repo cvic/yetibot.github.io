@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>
+<channel>
+<atom:link href='http://yetibot.com' rel='self' type='application/rss+xml'/>
+<title>
+Yetibot
+</title>
+<link>
+http://yetibot.com
+</link>
+<description>
+Docs and blog posts for Yetibot
+</description>
+<lastBuildDate>
+Thu, 29 Mar 2018 19:20:22 +0000
+</lastBuildDate>
+<generator>
+clj-rss
+</generator>
+<item>
+<guid>
+http://yetibot.com/blog/2018-03-24-launch/
+</guid>
+<link>
+http://yetibot.com/blog/2018-03-24-launch/
+</link>
+<title>
+Yetibot.com Launch
+</title>
+<description>
+&lt;p&gt;Yetibot finally has a site!&lt;/p&gt;&lt;p&gt;Check out the &lt;a href='https://github.com/yetibot/yetibot.github.io'&gt;source on GitHub&lt;/a&gt; here if you're so inclined. It's powered by &lt;a href='http://cryogenweb.org/'&gt;Cryogen&lt;/a&gt;, the Clojure-based static site generator.&lt;/p&gt;&lt;h2 id=&quot;interactive&amp;#95;example&quot;&gt;Interactive example&lt;/h2&gt;&lt;p&gt;One of the goals with launching the site was to have inline interactive Yetibot examples that uses the GraphQL API on the public Yetibot instance to evaluate!&lt;/p&gt;
+</description>
+<pubDate>
+Sat, 24 Mar 2018 00:00:00 +0000
+</pubDate>
+</item>
+</channel>
+</rss>

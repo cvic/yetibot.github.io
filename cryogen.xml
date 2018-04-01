@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>
+<channel>
+<atom:link href='http://yetibot.com' rel='self' type='application/rss+xml'/>
+<title>
+Yetibot
+</title>
+<link>
+http://yetibot.com
+</link>
+<description>
+Docs and blog posts for Yetibot
+</description>
+<lastBuildDate>
+Thu, 29 Mar 2018 19:20:22 +0000
+</lastBuildDate>
+<generator>
+clj-rss
+</generator>
+</channel>
+</rss>
